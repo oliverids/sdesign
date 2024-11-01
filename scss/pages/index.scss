@@ -7,6 +7,24 @@ body {
   background-color: #1d1d1b;
   overflow: hidden;
   position: relative;
+
+  @include media-min(desktop-small) {
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      background-image: url(../assets/img/desktop_bg.png);
+      background-size: auto 100vh; /* Height is fixed to 100vh, width is auto */
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100vh;
+      width: 100%;
+      z-index: -1;
+  }
+  }
 }
 
 header {
@@ -17,13 +35,19 @@ header {
   z-index: 10;
 
   .container {
-    padding: to-rem(24);
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: to-rem(24);
+    max-width: to-rem(1256);
+    margin: 0 auto;
 
     #logo {
       max-width: to-rem(102);
+
+      @include media-min(desktop-small) {
+        max-width: to-rem(154);
+      }
     }
 
     #instagram_link {
@@ -69,6 +93,10 @@ main {
     top: 47%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    @include media-min(desktop-small) {
+      display: none;
+    }
   }
 
   div {
@@ -86,11 +114,6 @@ main {
       font-family: var(--font-head);
       text-transform: uppercase;
       text-align: center;
-      // padding-left: 12px;
-
-      // @include media-min(desktop-small) {
-      //   font-size: ;
-      // }
     }
 
     p {
@@ -109,6 +132,20 @@ main {
 
       .ti-cursor {
         display: none !important;
+      }
+    }
+
+    @include media-min(desktop-small) {
+      align-items: center;
+      
+      h1 {
+        font-size: to-rem(24);
+        letter-spacing: to-rem(50);
+      }
+
+      p {
+        max-width: none;
+        text-align: center;
       }
     }
   }
