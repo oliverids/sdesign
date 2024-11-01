@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Ufes Sans Bold'; /* Nome personalizado para a fonte */
+  src: url('../assets/fonts/UfesSans-Bold.ttf') format('truetype');
+  font-weight: 700; /* Defina o peso, se aplicável */
+  font-style: normal; /* Defina o estilo, se aplicável */
+}
+
+@font-face {
+  font-family: 'Ufes Sans Regular'; /* Nome personalizado para a fonte */
+  src: url('../assets/fonts/UfesSans-Regular.ttf') format('truetype');
+  font-weight: 400; /* Defina o peso, se aplicável */
+  font-style: normal; /* Defina o estilo, se aplicável */
+}
+
+:root {
+  //TIPOGRAFIA ================================
+  --font-body: "Ufes Sans Regular", sans-serif;
+  --font-head: "Ufes Sans Bold", sans-serif;
+
+  --branco: rgb(255, 255, 255);
+  --cinza: rgba(255, 255, 255, 0.50);
+}

@@ -1,0 +1,116 @@
+@use "../global";
+@use "../abstracts" as *;
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #1d1d1b;
+  overflow: hidden;
+  position: relative;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 100vw;
+
+  .container {
+    padding: to-rem(24);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    #instagram_link {
+      svg path {
+        transition: .15s ease-in-out;
+      }
+
+      &:hover {
+        svg path {
+          fill: #f7416e;
+        transition: .15s ease-in-out;
+
+        }
+      }
+    }
+  }
+}
+
+main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: -1;
+
+  &::before {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    z-index: -1;
+    background-image: url(../assets/img/teste.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-width: to-rem(600);
+    width: 100%;
+    max-width: to-rem(900);
+    aspect-ratio: 1/1;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  h1 {
+    color: var(--branco);
+    font-size: to-rem(18);
+    line-height: 1.2;
+    letter-spacing: to-rem(24);
+    margin-bottom: to-rem(12);
+    font-family: var(--font-head);
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 12px;
+
+    // @include media-min(desktop-small) {
+    //   font-size: ;
+    // }
+  }
+
+  p {
+    text-align: center;
+    color: var(--cinza);
+    font-family: var(--font-body);
+    font-size: to-rem(8);
+    line-height: 1.5;
+    letter-spacing: to-rem(1.8);
+
+    span {
+      color: var(--branco);
+    }
+  }
+}
+
+.typing-demo {
+  width: 64ch;
+  animation:
+    typing 2s steps(22),
+    blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  // border-right: 3px solid;
+  // font-family: monospace;
+  // font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
