@@ -106,16 +106,6 @@ main {
     flex-direction: column;
     align-items: flex-end;
 
-    // h1 {
-    //   color: var(--branco);
-    //   font-size: to-rem(18);
-    //   line-height: 1.2;
-    //   letter-spacing: to-rem(24);
-    //   font-family: var(--font-head);
-    //   text-transform: uppercase;
-    //   text-align: center;
-    // }
-
     #titulo_mobile {
       display: block;
       margin-bottom: to-rem(12);
@@ -154,9 +144,6 @@ main {
       #titulo_desktop {
         display: block;
         margin-bottom: to-rem(20);
-
-        // font-size: to-rem(24);
-        // letter-spacing: to-rem(50);
         margin-bottom: to-rem(20);
       }
 
@@ -169,21 +156,3 @@ main {
     }
   }
 }
-
-// .typing-demo {
-//   width: 64ch;
-//   animation:
-//     typing 2s steps(22),
-//     blink 0.5s step-end infinite alternate;
-//   white-space: nowrap;
-//   overflow: hidden;
-//   // border-right: 3px solid;
-//   // font-family: monospace;
-//   // font-size: 2em;
-// }
-
-// @keyframes typing {
-//   from {
-//     width: 0;
-//   }
-// }
