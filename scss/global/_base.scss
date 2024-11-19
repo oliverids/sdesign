@@ -1,0 +1,9 @@
+@use "../abstracts" as *;
+
+.container {
+  padding: 0 to-rem(18);
+
+  @include media-min(medium) {
+    padding: 0 to-rem(40);
+  }
+}
