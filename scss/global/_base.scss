@@ -5,6 +5,17 @@ body {
   font-size: 16px;
 }
 
+h2 {
+  font-size: to-rem(18);
+  font-family: var(--font-head);
+  line-height: 1.2;
+}
+
+p {
+  color: var(--sdesign-preto);
+  line-height: 1.5;
+}
+
 .container {
   padding: 0 to-rem(18);
 
@@ -43,3 +54,4 @@ body {
     }
   }
 }
+

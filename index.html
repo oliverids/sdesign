@@ -1,37 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SDESIGN 2024 - Em breve</title>
+  <title>SDESIGN 2024 - Perspectivas</title>
   <link rel="stylesheet" href="css/index.min.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
   <header class="header">
     <div class="container">
-      <button class="header__menu"><div></div></button>
+      <button class="header__menu">
+        <div></div>
+      </button>
     </div>
 
     <nav class="header-nav">
       <ul>
-        <li>
-          <a href="#">Sobre</a>
-        </li>
+        <li><a href="#sobre">Sobre</a></li>
 
-        <li>
-          <a href="#">Convidados</a>
-        </li>
+        <li><a href="#">Convidados</a></li>
 
-        <li>
-          <a href="#">Programação</a>
-        </li>
+        <li><a href="#">Programação</a></li>
 
-        <li>
-          <a href="#">Inscrição</a>
-        </li>
+        <li><a href="#">Inscrição</a></li>
       </ul>
     </nav>
   </header>
@@ -43,11 +39,11 @@
     <div class="container main-container">
       <div class="evento-info">
         <img src="assets/img/main__logo.png" alt="Logo do SDesign 2024.">
-        <span>04 a 07 DE DEZEMBRO DE 2024 <br/> VITORIA - ES</span>
+        <span>04 a 07 DE DEZEMBRO DE 2024 <br /> VITORIA - ES</span>
       </div>
 
-
-      <h1 class="main-titulo">Amplie suas possibilidades <span class="main-titulo__subtitulo">no Design e descubra novas <span class="main-titulo__destaque">Perspectivas</span></span></h1>
+      <h1 class="main-titulo">Amplie suas possibilidades <span class="main-titulo__subtitulo">no Design e descubra novas
+          <span class="main-titulo__destaque">Perspectivas</span></span></h1>
 
       <p class="main-paragrafo">Garanta seu ingresso na edição histórica da Semana de Design UFES </p>
 
@@ -58,6 +54,27 @@
     </div>
   </main>
 
+  <section id="sobre">
+    <div class="container">
+      <div class="sobre-info">
+        <h2>O que é a SDesign?</h2>
+        <p>O SDesign é um evento realizado por estudantes do curso de Design UFES e tem como objetivo promover uma semana acadêmica de integração entre designers em formação, profissionais e admiradores da área.</p>
+        <p>Por meio de <strong>palestras, oficinas, rodas de conversa e entre outras atividades</strong>, será o ambiente ideal para compartilhar conhecimentos e criar novas conexões.</p>
+
+        <a href="#" class="botao --primario">Quero estar na SDesign</a>
+      </div>
+
+      <div class="swiper sobre-slider">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide"><img src="assets/img/sobre__img-1.png" alt=""></li>
+          <li class="swiper-slide"><img src="assets/img/sobre__img-2.png" alt=""></li>
+          <li class="swiper-slide"><img src="assets/img/sobre__img-3.png" alt=""></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="scripts/main.js"></script>
 </body>
 

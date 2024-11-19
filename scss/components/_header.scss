@@ -22,16 +22,6 @@ header {
       justify-content: center;
       align-items: center;
 
-      // &:hover {
-      //   div {
-      //     &,
-      //     &::before,
-      //     &::after {
-      //       background: var(--sdesign-laranja);
-      //     }
-      //   }
-      // }
-
       div {
         &,
         &::before,
@@ -86,7 +76,6 @@ header {
           font-size: 16px;
           line-height: 1.5;
           text-align: center;
-          display: block;
           width: 100%;
           color: var(--sdesign-preto);
           padding: to-rem(8);
