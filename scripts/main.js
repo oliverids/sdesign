@@ -1,6 +1,6 @@
 // HEADER ===================
-const header = document.querySelector('.header'),
-  menuButton = document.querySelector('.header__menu');
+const header = document.querySelector('.header');
+const menuButton = document.querySelector('.header__menu');
 
 menuButton.addEventListener('click', () => {
   header.classList.toggle('--ativo');
@@ -15,10 +15,16 @@ menuButton.addEventListener('click', () => {
 // SWIPER ===================
 new Swiper(".sobre-slider", {
   slidesPerView: 1,
-  centeredSlides: true,
   autoplay: {
     delay: 2500,
     disableOnInteraction: false,
   },
+  loop: true
+});
+
+new Swiper(".convidados-slider", {
+  slidesPerView: 'auto',
+  spaceBetween: 32,
+  centeredSlides: true,
   loop: true
 });
