@@ -1,0 +1,58 @@
+@use "../abstracts" as *;
+
+.beneficios {
+  padding: to-rem(56) 0 to-rem(38);
+
+  h2 {
+    margin: 0 auto to-rem(22);
+    max-width: to-rem(220);
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .beneficios-lista {
+      width: 100%;
+
+      .beneficios-item {
+        display: flex;
+        align-items: center;
+        column-gap: to-rem(4);
+
+        &:not(:last-child) {
+          margin-bottom: to-rem(18);
+        }
+
+        div {
+          width: to-rem(92);
+
+          img {
+            margin: auto;
+          }
+
+          h3 {
+            font-size: 16px;
+            font-family: var(--font-head);
+            line-height: 1;
+            text-align: center;
+            color: var(--sdesign-laranja);
+          }
+        }
+
+        p {
+          font-size: to-rem(12);
+          line-height: 1.5;
+          color: var(--sdesign-branco);
+          width: calc(100% - to-rem(96));
+        }
+      }
+    }
+
+    .botao {
+      margin-top: to-rem(28);
+    }
+  }
+}

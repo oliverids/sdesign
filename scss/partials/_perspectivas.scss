@@ -1,0 +1,19 @@
+@use "../abstracts" as *;
+
+.multiplas-perspectivas {
+  padding-bottom: to-rem(40);
+
+  .multiplas-container {
+    max-width: to-rem(488);
+    margin: auto;
+
+    h2 {
+      width: fit-content;
+      margin-bottom: to-rem(8);
+    }
+
+    p:last-child {
+      margin-top: to-rem(14);
+    }
+  }
+}

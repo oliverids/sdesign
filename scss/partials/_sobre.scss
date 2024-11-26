@@ -1,0 +1,36 @@
+@use "../abstracts" as *;
+
+#sobre {
+  padding: to-rem(38) 0;
+
+  .sobre-info {
+    h2 {
+      text-align: center;
+      margin-bottom: to-rem(8);
+    }
+
+    p {
+      font-size: to-rem(12);
+      text-align: center;
+      max-width: to-rem(488);
+      margin: auto;
+    }
+  }
+
+  .botao {
+    margin: to-rem(16) auto 0;
+  }
+
+  .sobre-slider {
+    width: 100%;
+    max-width: to-rem(488);
+    margin-top: to-rem(38);
+
+    .swiper-wrapper {
+      li img {
+        width: 100%;
+        border-radius: to-rem(16);
+      }
+    }
+  }
+}

@@ -187,6 +187,13 @@
     </div>
   </section>
 
+  <section class="depoimentos">
+    <div class="container">
+      <h2>Programação completa</h2>
+      <p>Explore todas as palestras, oficinas e mesas redondas do nosso cronograma.</p>
+    </div>
+  </section>
+
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="scripts/main.js"></script>
 </body>

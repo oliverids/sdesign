@@ -1,0 +1,86 @@
+@use "../abstracts" as *;
+
+.main {
+  background-color: var(--sdesign-preto);
+  min-height: to-rem(472);
+  margin-top: to-rem(-72);
+  padding-top: to-rem(72);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+
+  .banner-bg {
+    position: absolute;
+
+    &.bg__img-1 {
+      width: 60vw;
+      top: to-rem(54);
+      right: 4%;
+    }
+
+    &.bg__img-2 {
+      width: 48vw;
+      bottom: to-rem(-4);
+      right: 0;
+    }
+  }
+
+  .main-container {
+    position: relative;
+    z-index: 5;
+
+    .evento-info {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: to-rem(14);
+
+      img {
+        max-width: to-rem(40);
+      }
+
+      span {
+        font-size: to-rem(12);
+        font-family: var(--font-head);
+        line-height: 1.5;
+        color: var(--sdesign-branco);
+      }
+    }
+
+    .main-titulo {
+      color: var(--sdesign-branco);
+      text-align: center;
+      font-family: var(--font-head);
+      font-size: to-rem(26);
+      font-weight: var(--medium);
+      line-height: 1.2;
+      margin: to-rem(22) 0 to-rem(4);
+
+      &__subtitulo {
+        display: block;
+        font-size: to-rem(18);
+      }
+
+      &__destaque {
+        color: var(--sdesign-laranja);
+      }
+    }
+
+    .main-paragrafo {
+      text-align: center;
+      color: var(--sdesign-branco);
+      font-size: to-rem(10);
+      line-height: 1.5;
+    }
+
+    .main-ctas {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: to-rem(12);
+      margin-top: to-rem(22);
+    }
+  }
+}
