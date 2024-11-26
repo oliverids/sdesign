@@ -37,6 +37,12 @@ new Swiper(".convidados-slider", {
 	loop: true,
 });
 
+new Swiper(".depoimentos-slider", {
+	slidesPerView: "auto",
+	spaceBetween: 32,
+	centeredSlides: true,
+});
+
 // NAVEGACAO ===================
 const programacaoBtns = document.querySelectorAll("button[data-nav]");
 const programacaoContents = document.querySelectorAll("ul[data-content]");

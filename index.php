@@ -174,13 +174,10 @@
 
           <ul data-content="dia-2">
             <?php include('components/programacao/lista-dia-2.php') ?>
-
-
           </ul>
 
           <ul data-content="dia-3">
             <?php include('components/programacao/lista-dia-3.php') ?>
-
           </ul>
         </div>
       </div>
@@ -189,8 +186,41 @@
 
   <section class="depoimentos">
     <div class="container">
-      <h2>Programação completa</h2>
-      <p>Explore todas as palestras, oficinas e mesas redondas do nosso cronograma.</p>
+      <h2>Depoimentos de quem já vivenciou o SDesign</h2>
+      <p>Veja como o SDesign impactou a trajetória de designers anteriores</p>
+    </div>
+
+    <div class="swiper depoimentos-slider">
+      <ul class="swiper-wrapper">
+        <li class="swiper-slide depoimento-slide">
+          <img src="assets/img/depoimento-katia.png" alt="">
+          <p class="nome">Katia Miller</p>
+          <span class="cargo">Docente Design UFES</span>
+          <p>A SDesign é um evento promovido pelos estudantes de Design da Ufes que tem um papel de fundamental importância para o crescimento da área no contexto local. As edições passadas vieram com uma visão de identidade e fortalecimento do mercado capixaba. Esta edição, já mais amadurecida e ousada, consegue trazer novas perspectivas para uma área tão plural e que tem como base o pensamento sistemático do projeto.
+            Espero que os participantes, estudantes, professores e profissionais, se sintam aptos em mergulhar nesse mas de possibilidades e protagonistas de sua trajetória.</p>
+        </li>
+
+        <li class="swiper-slide depoimento-slide">
+          <img src="assets/img/depoimento-edson.png" alt="">
+          <p class="nome">Edson Rufino</p>
+          <span class="cargo">Docente Design UFES</span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempo.</p>
+        </li>
+
+        <li class="swiper-slide depoimento-slide">
+          <img src="assets/img/depoimento-comboio.png" alt="">
+          <p class="nome">Comboio</p>
+          <span class="cargo">Estúdio de animação e Design</span>
+          <p>A SDesign tem se consolidado como o <strong>ponto de encontro do design capixaba</strong>. Na última edição, compartilhamos uma palestra e oficina de animação, e foi tão inspirador que agora nos tornamos apoiadores. Vida longa ao evento!</p>
+        </li>
+
+        <li class="swiper-slide depoimento-slide">
+          <img src="assets/img/depoimento-isadora.png" alt="">
+          <p class="nome">Isadora Ventura</p>
+          <span class="cargo">Estudante Design UFES</span>
+          <p>Estou muito animada para o evento! Acompanhei de perto o esforço e empenho da equipe[...]. Com debates relevantes que transcendem o meio do design, <strong>abordando questões importantes</strong> para uma esfera geral, com uma programação completa e diversificada, <strong>sinto que essa edição superará as anteriores</strong> [...].</p>
+        </li>
+      </ul>
     </div>
   </section>
 
