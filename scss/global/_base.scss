@@ -18,9 +18,10 @@ h2 {
   h2 {
     color: var(--sdesign-branco);
     text-align: center;
+    margin-bottom: to-rem(4);
   }
 
-  .container >p {
+  .container > p {
     color: var(--sdesign-branco);
     text-align: center;
     font-size: to-rem(10);
@@ -77,3 +78,7 @@ p {
   }
 }
 
+footer {
+  min-height: to-rem(28);
+  background: var(--sdesign-preto);
+}

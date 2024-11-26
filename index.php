@@ -27,7 +27,7 @@
 
         <li><a href="#programacao">Programação</a></li>
 
-        <li><a href="#">Inscrição</a></li>
+        <li><a href="https://www.even3.com.br/sdesign-perspectivas/">Inscrição</a></li>
       </ul>
     </nav>
   </header>
@@ -196,15 +196,15 @@
           <img src="assets/img/depoimento-katia.png" alt="">
           <p class="nome">Katia Miller</p>
           <span class="cargo">Docente Design UFES</span>
-          <p>A SDesign é um evento promovido pelos estudantes de Design da Ufes que tem um papel de fundamental importância para o crescimento da área no contexto local. As edições passadas vieram com uma visão de identidade e fortalecimento do mercado capixaba. Esta edição, já mais amadurecida e ousada, consegue trazer novas perspectivas para uma área tão plural e que tem como base o pensamento sistemático do projeto.
-            Espero que os participantes, estudantes, professores e profissionais, se sintam aptos em mergulhar nesse mas de possibilidades e protagonistas de sua trajetória.</p>
+          <p>A SDesign é um evento <strong>promovido pelos estudantes de Design da Ufes</strong> que tem um papel de fundamental importância para o crescimento da área no contexto local. [...] Esta edição, já <strong>mais amadurecida e ousada</strong>, consegue trazer novas <strong>perspectivas</strong> para uma área tão plural e que tem como base o pensamento sistemático do projeto.[...]</p>
         </li>
 
         <li class="swiper-slide depoimento-slide">
           <img src="assets/img/depoimento-edson.png" alt="">
           <p class="nome">Edson Rufino</p>
           <span class="cargo">Docente Design UFES</span>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempo.</p>
+          <p>[...] o protagonismo é, sem dúvida, da equipe de estudantes. Eles têm feito um trabalho extraordinário, cuidando de cada detalhe com dedicação. Com tanto empenho, é certo que a SDesign deste ano já é um sucesso! O tema "Perspectivas" traz um olhar rico e multifacetado, destacando inúmeras possibilidades de atuação no design, indo além das mais exploradas pelo mercado.
+          </p>
         </li>
 
         <li class="swiper-slide depoimento-slide">
@@ -224,8 +224,59 @@
     </div>
   </section>
 
+  <section class="apoio secao-bg__preto">
+    <div class="container">
+      <h2>Veja quem apoia o Sdesign Perspectivas</h2>
+      <p>Conheça as empresas e instituições que tornam o SDesign 2024 possível</p>
+
+      <ul>
+        <li><img src="assets/img/apoio-alphagraphics.png" alt="Logo Alphagraphics"></li>
+        <li><img src="assets/img/apoio-hub.png" alt="Logo Alphagraphics"></li>
+        <li><img src="assets/img/apoio-comboio.png" alt="Logo Alphagraphics"></li>
+        <li><img src="assets/img/apoio-secult.png" alt="Logo Alphagraphics"></li>
+        <li><img src="assets/img/apoio-locomotipo.png" alt="Logo Alphagraphics"></li>
+        <li><img src="assets/img/apoio-sebrae.png" alt="Logo Alphagraphics"></li>
+        <li><img src="assets/img/apoio-candela.png" alt="Logo Alphagraphics"></li>
+        <li><img src="assets/img/apoio-tem_design.png" alt="Logo Alphagraphics"></li>
+        <li><img src="assets/img/apoio-balaio.png" alt="Logo Alphagraphics"></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="inscricao">
+    <div class="container">
+      <div class="inscricao-container">
+        <h2>Venha fazer suas conexões na Sdesign</h2>
+        <p>Não perca a oportunidade de se conectar com profissionais e expandir seu conhecimento em design</p>
+        <a href="https://www.even3.com.br/sdesign-perspectivas/" class="botao --primario">Garantir Inscrição</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq">
+    <div class="container">
+      <h2>FAQ (Perguntas Frequentes)</h2>
+      <p>Sessão dedicada a responder às dúvidas mais comuns sobre o evento</p>
+
+      <div class="faq-lista">
+        <details>
+          <summary><span>O evento é gratuito?</span> <span>+</span></summary>
+          <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+        </details>
+
+        <details>
+          <summary>Epcot Center <span>+</span></summary>
+          <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="scripts/main.js"></script>
+
+  <footer></footer>
 </body>
 
 </html>

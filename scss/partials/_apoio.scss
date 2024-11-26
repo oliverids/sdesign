@@ -1,0 +1,22 @@
+@use "../abstracts" as *;
+
+.apoio {
+  padding: to-rem(28) 0;
+
+  .container {
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      column-gap: to-rem(16);
+      row-gap: to-rem(16);
+      margin-top: to-rem(18);
+
+      li img {
+        max-height: to-rem(56);
+        max-width: to-rem(100);
+      }
+    }
+  }
+}

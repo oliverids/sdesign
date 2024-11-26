@@ -1,0 +1,22 @@
+@use "../abstracts" as *;
+
+.inscricao {
+  padding: to-rem(24) 0;
+  .container {
+    display: flex;
+    justify-content: flex-end;
+
+    .inscricao-container {
+      max-width: to-rem(172);
+
+      h2 {
+        color: var(--sdesign-preto);
+      }
+
+      p {
+        font-size: to-rem(10);
+        margin: to-rem(4) 0 to-rem(16);
+      }
+    }
+  }
+}
