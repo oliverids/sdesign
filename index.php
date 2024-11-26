@@ -179,7 +179,7 @@
           </ul>
 
           <ul data-content="dia-3">
-            <?php include('components/programacao/lista-dia-2.php') ?>
+            <?php include('components/programacao/lista-dia-3.php') ?>
 
           </ul>
         </div>
