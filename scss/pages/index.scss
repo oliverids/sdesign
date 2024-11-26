@@ -219,10 +219,12 @@
           padding: 0 to-rem(16);
           background-color: var(--sdesign-branco);
           border-radius: to-rem(22);
-          margin-top: to-rem(-28);
+          margin-top: to-rem(-30);
+          box-shadow: 0px to-rem(-2) to-rem(8) 0 #00000008;
           display: flex;
-          justify-content: space-between;
+          justify-content: center;
           align-items: center;
+          column-gap: to-rem(16);
           position: relative;
           z-index: 4;
         }

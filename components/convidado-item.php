@@ -11,25 +11,25 @@ global $instagram;
 <li class="convidado-item swiper-slide">
   <img src="<?php echo 'assets/img/convidado-' . $foto_src ?>.png " alt="Foto palestrante: <?php echo $nome ?>">
   <div class="redes">
-    <?php if (isset($website)) { ?>
+    <?php if ($website !== '') { ?>
       <a href="<?php echo $website ?>">
         <img src="assets/img/convidados-website.png" alt="">
       </a>
     <?php } ?>
 
-    <?php if (isset($behance)) { ?>
+    <?php if ($behance !== '') { ?>
       <a href="<?php echo $behance ?>">
         <img src="assets/img/convidados-behance.png" alt="">
       </a>
     <?php } ?>
 
-    <?php if (isset($linkedin)) { ?>
+    <?php if ($linkedin !== '') { ?>
       <a href="<?php echo $linkedin ?>">
         <img src="assets/img/convidados-linkedin.png" alt="">
       </a>
     <?php } ?>
 
-    <?php if (isset($instagram)) { ?>
+    <?php if ($instagram !== '') { ?>
       <a href="<?php echo $instagram ?>">
         <img src="assets/img/convidados-instagram.png" alt="">
       </a>
