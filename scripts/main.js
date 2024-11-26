@@ -28,3 +28,19 @@ new Swiper(".convidados-slider", {
   centeredSlides: true,
   loop: true
 });
+
+// NAVEGACAO ===================
+const programacaoBtns = document.querySelectorAll('button[data-nav]');
+const programacaoContents = document.querySelectorAll('ul[data-content]');
+
+programacaoBtns.forEach(button => {
+  button.addEventListener('click', e => {
+    let id = e.currentTarget.getAttribute('data-nav');
+
+    programacaoBtns.forEach(each => each.classList.remove('--ativo'));
+    programacaoContents.forEach(each => each.classList.remove('--ativo'));
+
+    document.querySelector(`[data-nav=${id}]`).classList.add('--ativo');
+    document.querySelector(`[data-content=${id}]`).classList.add('--ativo');
+  })
+});

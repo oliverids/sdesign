@@ -25,7 +25,7 @@
 
         <li><a href="#convidados">Convidados</a></li>
 
-        <li><a href="#">Programação</a></li>
+        <li><a href="#programacao">Programação</a></li>
 
         <li><a href="#">Inscrição</a></li>
       </ul>
@@ -48,8 +48,8 @@
       <p class="main-paragrafo">Garanta seu ingresso na edição histórica da Semana de Design UFES </p>
 
       <div class="main-ctas">
-        <a href="#" class="botao --secundario">Ver Programação</a>
-        <a href="#" class="botao --primario">Inscreva-se Agora</a>
+        <a href="#programacao" class="botao --secundario">Ver Programação</a>
+        <a href="https://www.even3.com.br/sdesign-perspectivas/" class="botao --primario">Inscreva-se Agora</a>
       </div>
     </div>
   </main>
@@ -63,7 +63,7 @@
         <p>Por meio de <strong>palestras, oficinas, rodas de conversa e entre outras atividades</strong>, será o
           ambiente ideal para compartilhar conhecimentos e criar novas conexões.</p>
 
-        <a href="#" class="botao --primario">Quero estar na Sdesign</a>
+        <a href="https://www.even3.com.br/sdesign-perspectivas/" class="botao --primario">Quero estar na Sdesign</a>
       </div>
 
       <div class="swiper sobre-slider">
@@ -130,7 +130,7 @@
         </li>
       </ul>
 
-      <a href="#" class="botao --primario">Garantir participação</a>
+      <a href="https://www.even3.com.br/sdesign-perspectivas/" class="botao --primario">Garantir participação</a>
     </div>
   </section>
 
@@ -140,253 +140,50 @@
       <p>Conheça nossos palestrantes e convidados especiais</p>
     </div>
 
-    <div class="swiper convidados-slider">
-      <ul class="swiper-wrapper convidados-lista">
-        <?php
-        $foto_src = 'felipe_nader';
-        $nome = 'Felipe Nader';
-        $profissao = 'Ave Design';
-        $website = 'https://avedesign.com.br/';
-        $behance = 'https://www.behance.net/avedesignbr';
-        $linkedin = 'https://www.linkedin.com/company/avedesign';
-        $instagram = 'https://www.instagram.com/avedesign.br/';
-        include('components/convidado-item.php')
-        ?>
+    <?php require_once('components/convidado-lista.php') ?>
+  </section>
 
-        <?php
-        $foto_src = 'amanda_lobos';
-        $nome = 'Amanda Lobos';
-        $profissao = 'Designer e Ilustradora';
-        $website = 'https://www.maisdeumlobo.com/';
-        $behance = 'https://www.behance.net/maisdeumlobo';
-        $linkedin = 'https://www.linkedin.com/in/amandalobos/';
-        $instagram = 'https://www.instagram.com/maisdeumlobo/';
-        include('components/convidado-item.php')
-        ?>
+  <section id="programacao">
+    <div class="container">
+      <div class="secao-intro">
+        <div class="secao-titulo">
+          <h2>Programação completa</h2>
+          <p>Explore todas as palestras, oficinas e mesas redondas do nosso cronograma.</p>
+        </div>
+        <a href="https://www.even3.com.br/sdesign-perspectivas/" class="botao --primario">Garantir inscrição</a>
+      </div>
 
-        <?php
-        $foto_src = 'ananda_miranda';
-        $nome = 'Ananda Miranda';
-        $profissao = 'Cinografia';
-        $website = '';
-        $behance = '';
-        $linkedin = '';
-        $instagram = 'https://www.instagram.com/edacjr.ufes';
-        include('components/convidado-item.php')
-        ?>
+      <div class="programacao">
+        <nav class="programacao-nav">
+          <ul>
+            <li><button data-nav="dia-0" class="--ativo">QUA - 03/12</button></li>
+            <li><button data-nav="dia-1">QUI - 05/12</button></li>
+            <li><button data-nav="dia-2">SEX - 06/12</button></li>
+            <li><button data-nav="dia-3">SAB - 07/12</button></li>
+          </ul>
+        </nav>
 
-        <?php
-        $foto_src = 'douglas_negrisolli';
-        $nome = 'Douglas Negrisolli';
-        $profissao = 'Designer Gráfico';
-        $website = '';
-        $behance = '';
-        $linkedin = 'https://www.linkedin.com/in/douglasnegrisolli/';
-        $instagram = 'https://www.instagram.com/dnegrisolli/';
-        include('components/convidado-item.php')
-        ?>
+        <div class="programacao-content">
+          <ul data-content="dia-0" class="--ativo">
+            <?php include('components/programacao/lista-dia-0.php') ?>
+          </ul>
 
-        <?php
-        $foto_src = 'dna';
-        $nome = 'DNA';
-        $profissao = 'Grupo de Animação';
-        $website = '';
-        $behance = '';
-        $linkedin = '';
-        $instagram = 'https://www.instagram.com/dnanimation/';
-        include('components/convidado-item.php')
-        ?>
+          <ul data-content="dia-1">
+            <?php include('components/programacao/lista-dia-1.php') ?>
+          </ul>
 
-        <?php
-        $foto_src = 'andre_rios';
-        $nome = 'André Rios';
-        $profissao = 'Artista de Efeitos Visuais';
-        $website = 'https://www.imdb.com/name/nm4757374/';
-        $behance = '';
-        $linkedin = '';
-        $instagram = 'https://www.instagram.com/andreriosvfx/';
-        include('components/convidado-item.php')
-        ?>
+          <ul data-content="dia-2">
+            <?php include('components/programacao/lista-dia-2.php') ?>
 
-        <?php
-        $foto_src = 'felipe_kaizer';
-        $nome = 'Felipe Kaizer';
-        $profissao = 'Professor Doutor do Departamento de História e Estética do Projeto (FAU-USP)';
-        $website = 'http://felipekaizer.com';
-        $behance = '';
-        $linkedin = 'https://www.linkedin.com/in/felipe-kaizer-b9b00689/';
-        $instagram = 'https://www.instagram.com/kaizer.felipe/';
-        include('components/convidado-item.php')
-        ?>
 
-        <?php
-        $foto_src = 'paula_gobetti';
-        $nome = 'Paula Gobetti';
-        $profissao = 'Designer, Professora e Pesquisadora';
-        $website = '';
-        $behance = 'https://www.behance.net/kabukistudio';
-        $linkedin = '';
-        $instagram = 'https://www.instagram.com/paulagobetti/';
-        include('components/convidado-item.php')
-        ?>
+          </ul>
 
-        <?php
-        $foto_src = 'maria_clara_ferreira';
-        $nome = 'Maria Clara Ferreira';
-        $profissao = 'Designer, produtora e multiartista';
-        $website = 'https://www.maisdeumlobo.com/';
-        $behance = 'https://www.behance.net/maisdeumlobo';
-        $linkedin = 'https://www.linkedin.com/in/amandalobos/';
-        $instagram = 'https://www.instagram.com/maisdeumlobo/';
-        include('components/convidado-item.php')
-        ?>
+          <ul data-content="dia-3">
+            <?php include('components/programacao/lista-dia-2.php') ?>
 
-        <?php
-        $foto_src = 'katia_miller';
-        $nome = 'Katia Miller';
-        $profissao = 'Professora da Ufes e Coorenadora da Materio.Lab';
-        $website = 'https://www.maisdeumlobo.com/';
-        $behance = 'https://www.behance.net/maisdeumlobo';
-        $linkedin = 'https://www.linkedin.com/in/amandalobos/';
-        $instagram = 'https://www.instagram.com/maisdeumlobo/';
-        include('components/convidado-item.php')
-        ?>
-
-        <?php
-        $foto_src = 'comboio';
-        $nome = 'Comboio';
-        $profissao = 'Estúdio de Animação e Ilustração';
-        $website = 'https://www.maisdeumlobo.com/';
-        $behance = 'https://www.behance.net/comboioart';
-        $linkedin = 'https://www.linkedin.com/company/comboio-art/';
-        $instagram = 'https://www.instagram.com/comboio.art/';
-        include('components/convidado-item.php')
-        ?>
-
-        <!--  -->
-        <?php
-        $foto_src = 'edac';
-        $nome = 'Edac';
-        $profissao = 'Empresa Junior';
-        $website = '';
-        $behance = '';
-        $linkedin = '';
-        $instagram = 'https://www.instagram.com/edacjr.ufes';
-        include('components/convidado-item.php')
-        ?>
-
-        <?php
-        $foto_src = 'leonardo_zamprogno';
-        $nome = 'Leonardo Zamprogno';
-        $profissao = 'Designer Gráfico, Game Designer e Escritor';
-        $website = 'http://mobogames.com.br';
-        $behance = 'https://www.behance.net/leozamprogeb15';
-        $linkedin = 'https://www.linkedin.com/in/leonardo-zamprogno/';
-        $instagram = 'https://www.instagram.com/leozamprogno/';
-        include('components/convidado-item.php')
-        ?>
-
-        <?php
-        $foto_src = 'marcos_spinasse';
-        $nome = 'Marcos Spinassé';
-        $profissao = 'Professor do Departamento de Gemologia';
-        $website = '';
-        $behance = '';
-        $linkedin = '';
-        $instagram = 'https://www.instagram.com/labdesignjoia/';
-        include('components/convidado-item.php')
-        ?>
-
-        <?php
-        $foto_src = 'cris_ibarra';
-        $nome = 'Cris Ibarra';
-        $profissao = 'Designer, podcaster e Professora da UFPE';
-        $website = 'https://sentipensantepodcast.wordpress.com';
-        $website = '';
-        $behance = '';
-        $linkedin = 'https://www.linkedin.com/in/mcibarra/';
-        $instagram = 'https://www.instagram.com/cris_ibarrah/';
-        include('components/convidado-item.php')
-        ?>
-
-        <?php
-        $foto_src = 'carol_cuquetto';
-        $nome = 'Carol Cuquetto';
-        $profissao = 'Designer e ilustradora';
-        $website = 'https://carolcuquetto.com.br/';
-        $behance = 'https://www.behance.net/carolcuquetto';
-        $linkedin = 'https://www.linkedin.com/in/carolcuquetto/';
-        $instagram = 'https://www.instagram.com/carolcuquetto';
-        include('components/convidado-item.php')
-        ?>
-
-        <?php
-        $foto_src = 'comboio';
-        $nome = 'Comboio';
-        $profissao = 'Estúdio de Animação e Ilustração';
-        $website = 'https://www.maisdeumlobo.com/';
-        $behance = 'https://www.behance.net/comboioart';
-        $linkedin = 'https://www.linkedin.com/company/comboio-art/';
-        $instagram = 'https://www.instagram.com/comboio.art/';
-        include('components/convidado-item.php')
-        ?>
-
-        <?php
-        $foto_src = 'julio_cesar';
-        $nome = 'Julio Cesar';
-        $profissao = 'UX Researcher Specialist - Grupo OLX';
-        $behance = '';
-        $linkedin = 'https://www.linkedin.com/in/julio-césar-reis-alves-6177b715b/';
-        $instagram = 'https://www.instagram.com/reisjulios_/';
-        include('components/convidado-item.php')
-        ?>
-
-        <?php
-        $foto_src = 'ana_clara_balarini';
-        $nome = 'Ana Clara Balarini';
-        $profissao = 'Brand Designer e Product Stories';
-        $website = '';
-        $behance = 'https://www.behance.net/anacbalarini';
-        $linkedin = 'https://www.linkedin.com/in/ana-clara-balarini-10755116b/';
-        $instagram = 'https://www.instagram.com/clarabalarina/';
-        include('components/convidado-item.php')
-        ?>
-
-        <?php
-        $foto_src = 'anclebio_jr';
-        $nome = 'Anclebio Jr';
-        $profissao = 'Produtor Cultural';
-        $website = '';
-        $behance = '';
-        $linkedin = '';
-        $instagram = '';
-        include('components/convidado-item.php')
-        ?>
-
-        <!-- falta a foto dele -->
-        <?php
-        $foto_src = 'anclebio_jr';
-        $nome = 'Roberlan';
-        $profissao = 'Ilustrador e Designer Gráfico';
-        $website = 'https://roberlan.com';
-        $behance = 'https://www.behance.net/roberlan';
-        $linkedin = 'https://www.linkedin.com/in/roberlan/';
-        $instagram = 'https://www.instagram.com/thisisblase/';
-        include('components/convidado-item.php')
-        ?>
-
-        <?php
-        $foto_src = 'rafael_pessin';
-        $nome = 'Rafael Pessin';
-        $profissao = 'Produtor Audiovisual';
-        $website = '';
-        $behance = '';
-        $linkedin = '';
-        $instagram = 'https://www.instagram.com/rafaelpessin';
-        include('components/convidado-item.php')
-        ?>
-
-      </ul>
+          </ul>
+        </div>
+      </div>
     </div>
   </section>
 

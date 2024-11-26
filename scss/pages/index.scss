@@ -236,17 +236,200 @@
           color: var(--sdesign-branco);
           margin-top: to-rem(10);
         }
-        
+
         span {
           font-size: to-rem(8);
           line-height: 1.5;
           color: var(--sdesign-branco);
         }
 
-        p, span {
+        p,
+        span {
           display: block;
           width: 100%;
           text-align: center;
+        }
+      }
+    }
+  }
+}
+
+#programacao {
+  padding: to-rem(54) 0;
+
+  .container {
+    .secao-intro {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      column-gap: to-rem(8);
+      margin-bottom: to-rem(16);
+
+      .secao-titulo {
+        max-width: to-rem(160);
+
+        h2 {
+          color: var(--sdesign-preto);
+          margin-bottom: to-rem(4);
+        }
+
+        p {
+          font-size: to-rem(10);
+          line-height: 1.2;
+        }
+      }
+
+      .botao {
+        min-width: fit-content;
+      }
+    }
+
+    .programacao {
+      &-nav {
+        background: var(--sdesign-preto);
+        border-radius: to-rem(56);
+        padding: to-rem(8);
+        margin-bottom: to-rem(32);
+
+        ul {
+          display: flex;
+          justify-content: space-between;
+
+          li button {
+            padding: to-rem(8);
+            border-radius: to-rem(56);
+            color: var(--sdesign-branco);
+            font-size: to-rem(12);
+            transition: 0.3s all ease-in-out;
+
+            &:hover {
+              background: rgba(255, 255, 255, 0.301);
+            }
+
+            &.--ativo {
+              background: var(--sdesign-laranja);
+            }
+          }
+        }
+      }
+
+      &-content {
+        ul {
+          display: flex;
+          flex-direction: column;
+          row-gap: to-rem(16);
+          display: none;
+
+          &.--ativo {
+            display: flex;
+          }
+
+          hr {
+            width: 100%;
+            border: none;
+            height: to-rem(2);
+          }
+
+          &[data-content="dia-0"] {
+            .programacao-hora, hr {
+              background-color: var(--sdesign-laranja);
+            }
+          }
+
+          &[data-content="dia-1"] {
+            .programacao-hora, hr {
+              background-color: var(--sdesign-amarelo);
+            }
+          }
+
+          &[data-content="dia-2"] {
+            .programacao-hora, hr {
+              background-color: var(--sdesign-roxo);
+            }
+          }
+
+          &[data-content="dia-3"] {
+            .programacao-hora, hr {
+              background-color: var(--sdesign-rosa);
+            }
+          }
+
+          .programacao-item {
+            display: flex;
+
+            .programacao-hora {
+              min-width: to-rem(70);
+              border-radius: to-rem(16) 0 0 to-rem(16);
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding: to-rem(8);
+
+              span {
+                font-size: to-rem(12);
+                font-family: var(--font-head);
+                line-height: 1;
+                color: var(--sdesign-branco);
+              }
+            }
+
+            .conteudo-linha .programacao-conteudo:not(:last-child) {
+              margin-bottom: to-rem(8);
+            }
+
+            .programacao-conteudo {
+              padding: to-rem(8);
+              border-radius: 0 to-rem(16) to-rem(16) 0;
+              background-color: #f5f5f5;
+
+              h3 {
+                font-size: to-rem(12);
+                font-family: var(--font-head);
+                line-height: 1;
+              }
+
+              .titulo-tag {
+                display: flex;
+                align-items: center;
+                column-gap: to-rem(10);
+                margin: to-rem(8) 0 to-rem(4);
+                
+                h4 {
+                  font-size: to-rem(10);
+                  font-family: var(--font-head);
+                  line-height: 1;
+                  max-width: to-rem(180);
+                }
+
+                .tag {
+                  display: block;
+                  min-width: fit-content;
+                  padding: to-rem(4) to-rem(8) to-rem(2);
+                  font-size: to-rem(10);
+                  font-family: var(--font-head);
+                  line-height: 1;
+                  border-radius: to-rem(50);
+                  color: var(--sdesign-branco);
+
+                  &.--roxo {
+                    background-color: var(--sdesign-roxo);
+                  }
+
+                  &.--amarelo {
+                    background-color: var(--sdesign-amarelo);
+                  }
+
+                  &.--rosa {
+                    background-color: var(--sdesign-rosa);
+                  }
+                }
+              }
+
+              p {
+                font-size: to-rem(8);
+              }
+            }
+          }
         }
       }
     }
