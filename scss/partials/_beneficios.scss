@@ -16,6 +16,8 @@
 
     .beneficios-lista {
       width: 100%;
+      max-width: to-rem(480);
+      margin: 0 auto;
 
       .beneficios-item {
         display: flex;

@@ -2,9 +2,12 @@
 
 .inscricao {
   padding: to-rem(24) 0;
+
   .container {
     display: flex;
     justify-content: flex-end;
+    max-width: to-rem(488);
+    margin: 0 auto;
 
     .inscricao-container {
       max-width: to-rem(172);
