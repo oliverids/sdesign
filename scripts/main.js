@@ -24,8 +24,8 @@ menuButton.addEventListener("click", () => {
 new Swiper(".sobre-slider", {
 	slidesPerView: 1,
 	autoplay: {
-		delay: 2500,
-		disableOnInteraction: false,
+		delay: 3200,
+		disableOnInteraction: true,
 	},
 	loop: true,
 });

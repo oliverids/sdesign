@@ -33,4 +33,28 @@
       }
     }
   }
+
+  @include media-min(medium) {
+    padding: to-rem(80) 0;
+
+    .sobre-info {
+      h2 {
+        margin-bottom: to-rem(16);
+      }
+
+      p {
+        font-size: to-rem(24);
+        max-width: to-rem(688);
+      }
+    }
+
+    .botao {
+      margin-top: to-rem(32);
+    }
+
+    .sobre-slider {
+      margin-top: to-rem(80);
+      max-width: to-rem(688);
+    }
+  }
 }

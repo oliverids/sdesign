@@ -83,4 +83,37 @@
       margin-top: to-rem(22);
     }
   }
+
+  @include media-min(medium) {
+    min-height: to-rem(972);
+
+    .main-container {
+      .evento-info {
+        img {
+          max-width: to-rem(86);
+        }
+
+        span {
+          font-size: to-rem(24);
+        }
+      }
+
+      .main-titulo {
+        font-size: to-rem(54);
+        margin: to-rem(52) 0 to-rem(8);
+
+        &__subtitulo {
+          font-size: to-rem(36);
+        }
+      }
+
+      .main-paragrafo {
+        font-size: to-rem(18);
+      }
+
+      .main-ctas {
+        margin-top: to-rem(48);
+      }
+    }
+  }
 }

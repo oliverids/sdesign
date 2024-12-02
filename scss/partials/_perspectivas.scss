@@ -16,4 +16,24 @@
       margin-top: to-rem(14);
     }
   }
+
+  @include media-min(medium) {
+    padding-bottom: to-rem(80);
+
+    .multiplas-container {
+      max-width: to-rem(688);
+
+      h2 {
+        margin-bottom: to-rem(16);
+      }
+
+      p {
+        font-size: to-rem(24);
+
+        &:last-child {
+          margin-top: to-rem(20);
+        }
+      }
+    }
+  }
 }

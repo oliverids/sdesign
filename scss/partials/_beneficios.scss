@@ -36,7 +36,7 @@
           }
 
           h3 {
-            font-size: 16px;
+            font-size: to-rem(16);
             font-family: var(--font-head);
             line-height: 1;
             text-align: center;
@@ -55,6 +55,48 @@
 
     .botao {
       margin-top: to-rem(28);
+    }
+  }
+
+  @include media-min(medium) {
+    padding: to-rem(120) 0 to-rem(80);
+
+    h2 {
+      margin-bottom: to-rem(48);
+      max-width: to-rem(472);
+    }
+
+    .container {
+      .beneficios-lista {
+        max-width: to-rem(688);
+
+        .beneficios-item {
+          &:not(:last-child) {
+            margin-bottom: to-rem(40);
+          }
+
+          div {
+            width: to-rem(196);
+
+            img {
+              width: to-rem(52);
+            }
+
+            h3 {
+              font-size: to-rem(30);
+            }
+          }
+
+          p {
+            font-size: to-rem(24);
+            width: calc(100% - to-rem(200));
+          }
+        }
+      }
+
+      .botao {
+        margin-top: to-rem(64);
+      }
     }
   }
 }

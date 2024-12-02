@@ -85,12 +85,16 @@
 
         <p>
           O Design é uma área muito ampla e versátil!
-          Então, é fundamental expandirmos nossos horizontes para além da formação formal. Tanto no sentido de ampliarmos
-          nossos conhecimentos e tomar consciência sobre as nossas possibilidades de atuação, quanto no reconhecimento do
+          Então, é fundamental expandirmos nossos horizontes para além da formação formal. Tanto no sentido de
+          ampliarmos
+          nossos conhecimentos e tomar consciência sobre as nossas possibilidades de atuação, quanto no reconhecimento
+          do
           potencial transformador da profissão.
         </p>
 
-        <p><strong>O Sdesign 2024 é sobre isso!</strong> Queremos ampliar o olhar sobre a área profissional do Design, dando destaque a trajetórias não tão convencionais em nosso meio. É sobre o encontro de narrativas, circundando e conectando o tradicional às novas <strong>perspectivas</strong>.  </p>
+        <p><strong>O Sdesign 2024 é sobre isso!</strong> Queremos ampliar o olhar sobre a área profissional do Design,
+          dando destaque a trajetórias não tão convencionais em nosso meio. É sobre o encontro de narrativas,
+          circundando e conectando o tradicional às novas <strong>perspectivas</strong>.  </p>
       </div>
     </div>
   </section>
@@ -104,7 +108,8 @@
             <img src="assets/img/beneficios-icon__1.svg" alt="">
             <h3>Aprendizado</h3>
           </div>
-          <p>Com palestras, oficinas, rodas de conversa - entre outras atividades - o evento conta com quatro dias para você mergulhar no mundo do Design e adquirir conhecimentos práticos e teóricos da área.</p>
+          <p>Com palestras, oficinas, rodas de conversa - entre outras atividades - o evento conta com quatro dias para
+            você mergulhar no mundo do Design e adquirir conhecimentos práticos e teóricos da área.</p>
         </li>
 
         <li class="beneficios-item">
@@ -112,7 +117,8 @@
             <img src="assets/img/beneficios-icon__2.svg" alt="">
             <h3>Perspectivas</h3>
           </div>
-          <p>Aqui você encontra profissionais especializados nas mais diversas áreas do Design, expandindo sua compreensão sobre a profissão e seu campo de atuação!</p>
+          <p>Aqui você encontra profissionais especializados nas mais diversas áreas do Design, expandindo sua
+            compreensão sobre a profissão e seu campo de atuação!</p>
         </li>
 
         <li class="beneficios-item">
@@ -120,7 +126,8 @@
             <img src="assets/img/beneficios-icon__3.svg" alt="">
             <h3>Comunidade</h3>
           </div>
-          <p>O Sdesign é a oportunidade perfeita para conhecer os demais estudantes e profissionais capixabas da área, reforçando a comunidade de designers e criando uma rede de apoio profissional.</p>
+          <p>O Sdesign é a oportunidade perfeita para conhecer os demais estudantes e profissionais capixabas da área,
+            reforçando a comunidade de designers e criando uma rede de apoio profissional.</p>
         </li>
 
         <li class="beneficios-item">
@@ -128,7 +135,9 @@
             <img src="assets/img/beneficios-icon__4.svg" alt="">
             <h3>Conexão</h3>
           </div>
-          <p>Nossos convidados são figuras importantes no meio mercadológico e acadêmico, de alcance nacional. Esse é o momento ideal para saber mais sobre sua área de interesse, mapear possíveis trajetórias e, quem sabe, trocar contatos!</p>
+          <p>Nossos convidados são figuras importantes no meio mercadológico e acadêmico, de alcance nacional. Esse é o
+            momento ideal para saber mais sobre sua área de interesse, mapear possíveis trajetórias e, quem sabe, trocar
+            contatos!</p>
         </li>
       </ul>
 
@@ -158,7 +167,7 @@
       <div class="programacao">
         <nav class="programacao-nav">
           <ul>
-            <li><button data-nav="dia-0" class="--ativo">QUA - 03/12</button></li>
+            <li><button data-nav="dia-0" class="--ativo">QUA - 04/12</button></li>
             <li><button data-nav="dia-1">QUI - 05/12</button></li>
             <li><button data-nav="dia-2">SEX - 06/12</button></li>
             <li><button data-nav="dia-3">SAB - 07/12</button></li>
@@ -198,14 +207,20 @@
           <img src="assets/img/depoimento-katia.png" alt="">
           <p class="nome">Katia Miller</p>
           <span class="cargo">Docente Design UFES</span>
-          <p>A SDesign é um evento <strong>promovido pelos estudantes de Design da Ufes</strong> que tem um papel de fundamental importância para o crescimento da área no contexto local. [...] Esta edição, já <strong>mais amadurecida e ousada</strong>, consegue trazer novas <strong>perspectivas</strong> para uma área tão plural e que tem como base o pensamento sistemático do projeto.[...]</p>
+          <p>A SDesign é um evento <strong>promovido pelos estudantes de Design da Ufes</strong> que tem um papel de
+            fundamental importância para o crescimento da área no contexto local. [...] Esta edição, já <strong>mais
+              amadurecida e ousada</strong>, consegue trazer novas <strong>perspectivas</strong> para uma área tão
+            plural e que tem como base o pensamento sistemático do projeto.[...]</p>
         </li>
 
         <li class="swiper-slide depoimento-slide">
           <img src="assets/img/depoimento-edson.png" alt="">
           <p class="nome">Edson Rufino</p>
           <span class="cargo">Docente Design UFES</span>
-          <p>[...] o protagonismo é, sem dúvida, da equipe de estudantes. Eles têm feito um trabalho extraordinário, cuidando de cada detalhe com dedicação. Com tanto empenho, é certo que a SDesign deste ano já é um sucesso! O tema "Perspectivas" traz um olhar rico e multifacetado, destacando inúmeras possibilidades de atuação no design, indo além das mais exploradas pelo mercado.
+          <p>[...] o protagonismo é, sem dúvida, da equipe de estudantes. Eles têm feito um trabalho extraordinário,
+            cuidando de cada detalhe com dedicação. Com tanto empenho, é certo que a SDesign deste ano já é um sucesso!
+            O tema "Perspectivas" traz um olhar rico e multifacetado, destacando inúmeras possibilidades de atuação no
+            design, indo além das mais exploradas pelo mercado.
           </p>
         </li>
 
@@ -213,14 +228,19 @@
           <img src="assets/img/depoimento-comboio.png" alt="">
           <p class="nome">Comboio</p>
           <span class="cargo">Estúdio de animação e Design</span>
-          <p>A SDesign tem se consolidado como o <strong>ponto de encontro do design capixaba</strong>. Na última edição, compartilhamos uma palestra e oficina de animação, e foi tão inspirador que agora nos tornamos apoiadores. Vida longa ao evento!</p>
+          <p>A SDesign tem se consolidado como o <strong>ponto de encontro do design capixaba</strong>. Na última
+            edição, compartilhamos uma palestra e oficina de animação, e foi tão inspirador que agora nos tornamos
+            apoiadores. Vida longa ao evento!</p>
         </li>
 
         <li class="swiper-slide depoimento-slide">
           <img src="assets/img/depoimento-isadora.png" alt="">
           <p class="nome">Isadora Ventura</p>
           <span class="cargo">Estudante Design UFES</span>
-          <p>Estou muito animada para o evento! Acompanhei de perto o esforço e empenho da equipe[...]. Com debates relevantes que transcendem o meio do design, <strong>abordando questões importantes</strong> para uma esfera geral, com uma programação completa e diversificada, <strong>sinto que essa edição superará as anteriores</strong> [...].</p>
+          <p>Estou muito animada para o evento! Acompanhei de perto o esforço e empenho da equipe[...]. Com debates
+            relevantes que transcendem o meio do design, <strong>abordando questões importantes</strong> para uma esfera
+            geral, com uma programação completa e diversificada, <strong>sinto que essa edição superará as
+              anteriores</strong> [...].</p>
         </li>
       </ul>
     </div>
@@ -263,12 +283,16 @@
       <div class="faq-lista">
         <details>
           <summary><span>O evento é gratuito?</span> <span>+</span></summary>
-          <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+          <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions,
+            award-winning fireworks and seasonal special events.Epcot is a theme park at Walt Disney World Resort
+            featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special
+            events.</p>
         </details>
 
         <details>
           <summary>Epcot Center <span>+</span></summary>
-          <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+          <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions,
+            award-winning fireworks and seasonal special events.</p>
         </details>
       </div>
     </div>

@@ -54,4 +54,39 @@
       }
     }
   }
+
+  @include media-min(medium) {
+    padding: to-rem(80) 0 to-rem(120);
+
+    .swiper {
+      margin-top: to-rem(28);
+
+      .convidados-lista .convidado-item {
+        max-width: to-rem(374);
+
+        img {
+          width: 100%;
+        }
+
+        .redes {
+          width: 100%;
+          height: to-rem(92);
+          padding: 0 to-rem(32);
+          border-radius: to-rem(46);
+          margin-top: to-rem(-64);
+          column-gap: to-rem(38);
+        }
+
+        p {
+          font-size: to-rem(32);
+          margin-top: to-rem(22);
+        }
+
+        span {
+          font-size: to-rem(18);
+        }
+      }
+
+    }
+  }
 }

@@ -10,6 +10,10 @@ h2 {
   font-family: var(--font-head);
   line-height: 1.2;
   color: var(--sdesign-laranja);
+
+  @include media-min(medium) {
+    font-size: to-rem(40);
+  }
 }
 
 .secao-bg__preto {
@@ -21,12 +25,22 @@ h2 {
     margin-bottom: to-rem(4);
   }
 
-  .container > p {
+  .container>p {
     color: var(--sdesign-branco);
     text-align: center;
     font-size: to-rem(10);
     line-height: 1.5;
     margin: auto;
+  }
+
+  @include media-min(medium) {
+    h2 {
+      margin-bottom: to-rem(8);
+    }
+
+    .container>p {
+      font-size: to-rem(18);
+    }
   }
 }
 
@@ -75,6 +89,11 @@ p {
       color: var(--sdesign-preto);
       background: var(--sdesign-branco);
     }
+  }
+
+  @include media-min(medium) {
+    padding: to-rem(14) to-rem(24) to-rem(16);
+    font-size: to-rem(16);
   }
 }
 

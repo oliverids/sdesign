@@ -37,7 +37,6 @@
         background: var(--sdesign-preto);
         border-radius: to-rem(56);
         padding: to-rem(8);
-        // margin-bottom: to-rem(32);
         max-width: to-rem(360);
         margin: 0 auto to-rem(32);
 
@@ -192,6 +191,18 @@
             }
           }
         }
+      }
+    }
+  }
+
+  @include media-min(medium) {
+    padding: to-rem(80) 0;
+
+
+    .container {
+      .secao-intro {
+        max-width: to-rem(648);
+        margin-bottom: to-rem(32);
       }
     }
   }
