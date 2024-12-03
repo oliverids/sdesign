@@ -41,6 +41,11 @@
         p {
           text-align: left;
           line-height: 1.5;
+          border-left: to-rem(6) solid var(--sdesign-laranja);
+          background-color: var(--sdesign-branco);
+          border-radius: 0 0 to-rem(6) to-rem(6);
+          margin: 0;
+          padding: to-rem(8) to-rem(6);
         }
 
         &[open] {
@@ -52,12 +57,49 @@
             border-bottom-left-radius: 0;
           }
 
+          // p {
+          //   border-left: to-rem(6) solid var(--sdesign-laranja);
+          //   background-color: var(--sdesign-branco);
+          //   border-radius: 0 0 to-rem(6) to-rem(6);
+          //   margin: 0;
+          //   padding: to-rem(8) to-rem(6);
+          // }
+        }
+      }
+    }
+  }
+
+  @include media-min(medium) {
+    padding: to-rem(18) 0;
+
+    .container {
+      h2 {
+        max-width: none;
+      }
+
+      p {
+        font-size: to-rem(18);
+        margin-bottom: to-rem(45);
+      }
+
+      .faq-lista {
+        max-width: to-rem(688);
+
+        details {
+          &:not(:last-child) {
+            margin-bottom: to-rem(8);
+          }
+
+          summary {
+            font-size: to-rem(22);
+            padding: to-rem(18) to-rem(38);
+            border-radius: to-rem(12);
+          }
+
           p {
-            border-left: to-rem(6) solid var(--sdesign-laranja);
-            background-color: var(--sdesign-branco);
-            border-radius: 0 0 to-rem(6) to-rem(6);
-            margin: 0;
-            padding: to-rem(8) to-rem(6);
+            font-size: to-rem(22);
+            border-radius: 0 0 to-rem(12) to-rem(12);
+            padding: to-rem(18) to-rem(38);
           }
         }
       }

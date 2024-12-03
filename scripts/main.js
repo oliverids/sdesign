@@ -35,6 +35,15 @@ new Swiper(".convidados-slider", {
 	spaceBetween: 32,
 	centeredSlides: true,
 	loop: true,
+	breakpoints: {
+		768: {
+			spaceBetween: 45,
+		},
+		1024: {
+			slidesPerView: 5,
+			spaceBetween: 50,
+		},
+	},
 });
 
 new Swiper(".depoimentos-slider", {

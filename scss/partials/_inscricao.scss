@@ -22,4 +22,20 @@
       }
     }
   }
+
+  @include media-min(medium) {
+    padding: to-rem(50) 0;
+
+    .container {
+      max-width: to-rem(800);
+
+      .inscricao-container {
+        max-width: to-rem(372);
+
+        p {
+          font-size: to-rem(18);
+        }
+      }
+    }
+  }
 }

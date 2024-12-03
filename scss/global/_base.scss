@@ -25,7 +25,7 @@ h2 {
     margin-bottom: to-rem(4);
   }
 
-  .container>p {
+  .container > p {
     color: var(--sdesign-branco);
     text-align: center;
     font-size: to-rem(10);
@@ -38,7 +38,7 @@ h2 {
       margin-bottom: to-rem(8);
     }
 
-    .container>p {
+    .container > p {
       font-size: to-rem(18);
     }
   }
@@ -100,4 +100,8 @@ p {
 footer {
   min-height: to-rem(28);
   background: var(--sdesign-preto);
+
+  @include media-min(medium) {
+    min-height: to-rem(62);
+  }
 }

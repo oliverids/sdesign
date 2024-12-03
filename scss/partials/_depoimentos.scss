@@ -54,4 +54,45 @@
       }
     }
   }
+
+  @include media-min(medium) {
+    padding: to-rem(60) 0;
+
+    .container {
+      h2 {
+        max-width: to-rem(400);
+      }
+
+      p {
+        font-size: to-rem(18);
+        margin-bottom: to-rem(24);
+      }
+    }
+
+    .swiper {
+      padding: to-rem(46) 0;
+
+      .depoimento-slide {
+        max-width: to-rem(534);
+        padding: to-rem(70) to-rem(52);
+
+        img {
+          max-width: to-rem(142);
+        }
+
+        .nome {
+          font-size: to-rem(32);
+        }
+
+        .cargo {
+          font-size: to-rem(26);
+        }
+
+        p:not(.nome) {
+          margin-top: to-rem(26);
+          font-size: to-rem(26);
+        }
+      }
+    }
+  }
 }

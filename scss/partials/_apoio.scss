@@ -19,4 +19,21 @@
       }
     }
   }
+
+  @include media-min(medium) {
+    padding: to-rem(62) 0;
+
+    .container {
+      ul {
+        margin-top: to-rem(40);
+        column-gap: to-rem(20);
+        row-gap: to-rem(20);
+
+        img {
+          max-width: to-rem(172);
+          max-height: to-rem(140);
+        }
+      }
+    }
+  }
 }

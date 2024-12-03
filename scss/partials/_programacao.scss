@@ -83,7 +83,6 @@
           }
 
           &[data-content="dia-0"] {
-
             .programacao-hora,
             hr {
               background-color: var(--sdesign-laranja);
@@ -91,7 +90,6 @@
           }
 
           &[data-content="dia-1"] {
-
             .programacao-hora,
             hr {
               background-color: var(--sdesign-amarelo);
@@ -99,7 +97,6 @@
           }
 
           &[data-content="dia-2"] {
-
             .programacao-hora,
             hr {
               background-color: var(--sdesign-roxo);
@@ -107,7 +104,6 @@
           }
 
           &[data-content="dia-3"] {
-
             .programacao-hora,
             hr {
               background-color: var(--sdesign-rosa);
@@ -198,11 +194,68 @@
   @include media-min(medium) {
     padding: to-rem(80) 0;
 
-
     .container {
       .secao-intro {
         max-width: to-rem(648);
         margin-bottom: to-rem(32);
+
+        .secao-titulo {
+          max-width: to-rem(342);
+
+          p {
+            font-size: to-rem(18);
+          }
+        }
+      }
+
+      .programacao {
+        &-nav {
+          max-width: to-rem(640);
+
+          ul li button {
+            font-size: to-rem(16);
+            padding: to-rem(16) to-rem(32);
+          }
+        }
+
+        &-content {
+          max-width: to-rem(688);
+
+          ul {
+            .programacao-item {
+              .programacao-hora {
+                min-width: to-rem(122);
+
+                span {
+                  font-size: to-rem(22);
+                }
+              }
+
+              .programacao-conteudo {
+                padding: to-rem(16) to-rem(24);
+
+                h3 {
+                  font-size: to-rem(24);
+                }
+
+                .titulo-tag {
+                  h4 {
+                    font-size: to-rem(20);
+                    max-width: to-rem(354);
+                  }
+
+                  .tag {
+                    font-size: to-rem(16);
+                  }
+                }
+
+                p {
+                  font-size: to-rem(18);
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
