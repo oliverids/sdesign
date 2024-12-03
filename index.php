@@ -76,7 +76,9 @@
   </section>
 
   <section class="multiplas-perspectivas">
+
     <div class="container">
+      <img class="left" src="assets/img/perspectivas-bg.svg" alt="">
       <div class="multiplas-container">
         <h2>Uma área,<br />múltiplas perspectivas</h2>
 
@@ -93,6 +95,8 @@
           dando destaque a trajetórias não tão convencionais em nosso meio. É sobre o encontro de narrativas,
           circundando e conectando o tradicional às novas <strong>perspectivas</strong>.  </p>
       </div>
+
+      <img class="right" src="assets/img/perspectivas-bg.svg" alt="">
     </div>
   </section>
 
@@ -272,7 +276,7 @@
     <div class="container">
       <div class="inscricao-container">
         <h2>Venha fazer suas conexões na Sdesign</h2>
-        <p>Não perca a oportunidade de se conectar com profissionais e expandir seu conhecimento em design</p>
+        <p>Não perca a oportunidade de se conectar com profissionais e expandir seu conhecimento em design.</p>
         <a href="https://www.even3.com.br/sdesign-perspectivas/" class="botao --primario">Garantir Inscrição</a>
       </div>
     </div>
