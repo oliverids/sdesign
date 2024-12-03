@@ -32,8 +32,7 @@
   </header>
 
   <main class="main">
-    <!-- <img class="banner-bg bg__img-1" src="assets/img/main__banner-1.png" alt="" srcset="">
-    <img class="banner-bg bg__img-2" src="assets/img/main__banner-2.png" alt="" srcset=""> -->
+    <img class="banner-bg bg__img-1" src="assets/img/banner-bg-1.svg" alt="" srcset="">
 
     <div class="container main-container">
       <div class="evento-info">
@@ -51,6 +50,8 @@
         <a href="https://www.even3.com.br/sdesign-perspectivas/" class="botao --primario">Inscreva-se Agora</a>
       </div>
     </div>
+
+    <img class="banner-bg bg__img-2" src="assets/img/banner-bg-2.svg" alt="" srcset="">
   </main>
 
   <section id="sobre">
