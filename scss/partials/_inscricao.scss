@@ -2,6 +2,10 @@
 
 .inscricao {
   padding: to-rem(24) 0;
+  background-image: url("../assets/img/inscricao-bg.svg");
+  background-repeat: no-repeat;
+  background-size: 184%;
+  background-position: 40% 102%;
 
   .container {
     display: flex;
@@ -23,8 +27,15 @@
     }
   }
 
+  @include media-min(600px) {
+    background-size: 148%;
+    background-position: 23% 96%;
+  }
+
   @include media-min(medium) {
     padding: to-rem(50) 0;
+    background-size: 159%;
+    background-position: 35% 96%;
 
     .container {
       max-width: to-rem(800);
@@ -41,12 +52,14 @@
 
   @include media-min(desktop-large) {
     padding: to-rem(94) 0 to-rem(54);
-
+    background-size: cover;
     .container {
       max-width: to-rem(1216);
+      justify-content: center;
 
       .inscricao-container {
         max-width: to-rem(412);
+        margin-left: to-rem(200);
 
         h2 {
           max-width: to-rem(364);
