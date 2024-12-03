@@ -29,6 +29,19 @@
           column-gap: to-rem(16);
           position: relative;
           z-index: 4;
+
+          a {
+            svg {
+              width: to-rem(22);
+              height: to-rem(22);
+            }
+
+            &:hover {
+              svg {
+                fill: var(--sdesign-laranja);
+              }
+            }
+          }
         }
 
         p {
@@ -75,6 +88,11 @@
           border-radius: to-rem(46);
           margin-top: to-rem(-64);
           column-gap: to-rem(38);
+
+          a svg {
+            width: to-rem(48);
+            height: to-rem(48);
+          }
         }
 
         p {
