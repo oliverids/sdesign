@@ -9,11 +9,11 @@
 <meta property="og:url" content="https://metatags.io/" />
 <meta property="og:title" content="SDESIGN 2024 — Semana do Design" />
 <meta property="og:description" content="O SDesign, organizado por estudantes de Design UFES, promove integração entre designers, profissionais e admiradores com palestras, oficinas e rodas de conversa, incentivando aprendizado e conexões." />
-<meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+<meta property="og:image" content="meta-image.png" />
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content="https://metatags.io/" />
 <meta property="twitter:title" content="SDESIGN 2024 — Semana do Design" />
 <meta property="twitter:description" content="O SDesign, organizado por estudantes de Design UFES, promove integração entre designers, profissionais e admiradores com palestras, oficinas e rodas de conversa, incentivando aprendizado e conexões." />
-<meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+<meta property="twitter:image" content="meta-image.png" />

@@ -26,13 +26,13 @@
     include('components/programacao-conteudo.php')
     ?>
 
-    <?php
-    $palestrante = 'Amanda Lobos';
-    $palestra_titulo = 'Ilustração: possibilidades e carreira';
-    $palestra_tag = 'Palestra';
-    $palestra_descricao = 'Explore o mercado de ilustração e suas conexões com o design! Entenda como transformar sua paixão em uma carreira independente ou integrada, dominando desde a prospecção de clientes até a entrega. Descubra novas formas de trabalhar e crescer como ilustrador!';
-    include('components/programacao-conteudo.php')
-    ?>
+    <!-- <?php
+          $palestrante = 'Amanda Lobos';
+          $palestra_titulo = 'Ilustração: possibilidades e carreira';
+          $palestra_tag = 'Palestra';
+          $palestra_descricao = 'Explore o mercado de ilustração e suas conexões com o design! Entenda como transformar sua paixão em uma carreira independente ou integrada, dominando desde a prospecção de clientes até a entrega. Descubra novas formas de trabalhar e crescer como ilustrador!';
+          include('components/programacao-conteudo.php')
+          ?> -->
   </div>
 </li>
 

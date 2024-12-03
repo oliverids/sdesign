@@ -261,6 +261,7 @@
         <li><img src="assets/img/apoio-candela.png" alt="Logo Alphagraphics"></li>
         <li><img src="assets/img/apoio-tem_design.png" alt="Logo Alphagraphics"></li>
         <li><img src="assets/img/apoio-balaio.png" alt="Logo Alphagraphics"></li>
+        <li><img src="assets/img/apoio-colora.png" alt="Logo Alphagraphics"></li>
       </ul>
     </div>
   </section>
@@ -283,16 +284,27 @@
       <div class="faq-lista">
         <details>
           <summary><span>O evento é gratuito?</span> <span>+</span></summary>
-          <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions,
-            award-winning fireworks and seasonal special events.Epcot is a theme park at Walt Disney World Resort
-            featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special
-            events.</p>
+          <p>Sim, o SDesign 2024 é totalmente gratuito! Nosso objetivo é tornar o evento acessível a todos que têm interesse em design, inovação e cultura.</p>
         </details>
 
         <details>
-          <summary>Epcot Center <span>+</span></summary>
-          <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions,
-            award-winning fireworks and seasonal special events.</p>
+          <summary>Como faço para me inscrever no evento? <span>+</span></summary>
+          <p>As inscrições podem ser feitas diretamente pelo site oficial do evento. Basta preencher o formulário e garantir sua vaga nas atividades que deseja participar.</p>
+        </details>
+
+        <details>
+          <summary>Onde o evento será realizado? <span>+</span></summary>
+          <p>O evento acontecerá no HUB ES+, localizado no Centro Histórico de Vitória, ES. Algumas atividades também serão realizadas em espaços ao redor da Praça Costa Pereira.</p>
+        </details>
+
+        <details>
+          <summary>Posso participar de qualquer atividade do evento? <span>+</span></summary>
+          <p>Sim! No entanto, algumas oficinas e palestras terão vagas limitadas, por isso é importante se inscrever com antecedência para garantir sua participação.</p>
+        </details>
+
+        <details>
+          <summary>O evento oferece certificado de participação? <span>+</span></summary>
+          <p>Sim, todos os participantes inscritos que comparecerem às atividades receberão um certificado digital ao final do evento.</p>
         </details>
       </div>
     </div>
