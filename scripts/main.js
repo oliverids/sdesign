@@ -39,10 +39,10 @@ new Swiper(".convidados-slider", {
 		768: {
 			spaceBetween: 45,
 		},
-		1024: {
-			slidesPerView: 5,
-			spaceBetween: 50,
-		},
+		// 1366: {
+		// 	slidesPerView: 5,
+		// 	spaceBetween: 82,
+		// },
 	},
 });
 
@@ -50,6 +50,12 @@ new Swiper(".depoimentos-slider", {
 	slidesPerView: "auto",
 	spaceBetween: 32,
 	centeredSlides: true,
+	breakpoints: {
+		1700: {
+			centeredSlides: false,
+
+		},
+	},
 });
 
 // NAVEGACAO ===================

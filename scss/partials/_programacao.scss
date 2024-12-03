@@ -259,4 +259,85 @@
       }
     }
   }
+
+  @include media-min(desktop-large) {
+    .container {
+      max-width: to-rem(1512);
+      padding: to-rem(0) to-rem(32);
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      column-gap: to-rem(24);
+      position: relative;
+
+      .secao-intro {
+        margin: 0;
+        max-width: to-rem(422);
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: to-rem(142) 0 to-rem(32);
+        position: sticky;
+        top: 0;
+
+        .secao-titulo {
+          max-width: none;
+
+          h2 {
+            font-size: to-rem(40);
+          }
+
+          p {
+            margin: to-rem(4) 0 to-rem(32);
+          }
+        }
+      }
+
+      .programacao {
+        width: 100%;
+        max-width: to-rem(1072);
+
+        &-content {
+          max-width: none;
+          margin: 0;
+
+          ul {
+            .programacao-item {
+              .programacao-hora {
+                min-width: to-rem(150);
+
+                span {
+                  font-size: to-rem(20);
+                }
+              }
+
+              .conteudo-linha {
+                width: 100%;
+              }
+
+              .programacao-conteudo {
+                padding: 0;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row-reverse;
+                align-items: center;
+
+                h3 {
+                  width: 100%;
+                  font-size: to-rem(20);
+                  padding: to-rem(16) to-rem(12);
+                }
+
+                .conteudo-main {
+                  padding: to-rem(16) to-rem(24);
+                  max-width: to-rem(602);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

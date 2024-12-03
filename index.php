@@ -16,22 +16,19 @@
 <body>
   <header class="header">
     <div class="container">
+      <?php include('assets/img/header-logo.svg') ?>
       <button class="header__menu">
         <div></div>
       </button>
+
+      <?php
+      $version = "desktop";
+      include('components/header-nav.php') ?>
     </div>
 
-    <nav class="header-nav">
-      <ul>
-        <li><a href="#sobre">Sobre</a></li>
-
-        <li><a href="#convidados">Convidados</a></li>
-
-        <li><a href="#programacao">Programação</a></li>
-
-        <li><a href="https://www.even3.com.br/sdesign-perspectivas/">Inscrição</a></li>
-      </ul>
-    </nav>
+    <?php
+    $version = "mobile";
+    include('components/header-nav.php') ?>
   </header>
 
   <main class="main">
@@ -101,7 +98,12 @@
 
   <section class="beneficios secao-bg__preto">
     <div class="container">
-      <h2>O Sdesign é essencial para você que busca:</h2>
+
+      <div>
+        <h2>O Sdesign é essencial para você que busca:</h2>
+        <a href="https://www.even3.com.br/sdesign-perspectivas/" class="botao --primario desktop">Garantir participação</a>
+      </div>
+
       <ul class="beneficios-lista">
         <li class="beneficios-item">
           <div>
@@ -141,7 +143,7 @@
         </li>
       </ul>
 
-      <a href="https://www.even3.com.br/sdesign-perspectivas/" class="botao --primario">Garantir participação</a>
+      <a href="https://www.even3.com.br/sdesign-perspectivas/" class="botao --primario mobile">Garantir participação</a>
     </div>
   </section>
 

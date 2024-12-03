@@ -3,9 +3,15 @@
 .beneficios {
   padding: to-rem(56) 0 to-rem(38);
 
-  h2 {
-    margin: 0 auto to-rem(22);
-    max-width: to-rem(220);
+  div {
+    h2 {
+      margin: 0 auto to-rem(22);
+      max-width: to-rem(220);
+    }
+
+    .botao.desktop {
+      display: none;
+    }
   }
 
   .container {
@@ -53,15 +59,15 @@
       }
     }
 
-    .botao {
-      margin-top: to-rem(28);
+    .botao.mobile {
+      margin: to-rem(28) auto 0;
     }
   }
 
   @include media-min(medium) {
     padding: to-rem(120) 0 to-rem(80);
 
-    h2 {
+    div h2 {
       margin-bottom: to-rem(48);
       max-width: to-rem(472);
     }
@@ -94,8 +100,66 @@
         }
       }
 
-      .botao {
+      .botao.mobile {
         margin-top: to-rem(64);
+      }
+    }
+  }
+
+  @include media-min(desktop-large) {
+    padding-bottom: to-rem(120);
+
+    .container {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+
+      div {
+        max-width: to-rem(384);
+        h2 {
+          text-align: left;
+        }
+
+        .botao.desktop {
+          display: block;
+        }
+      }
+
+      .beneficios-lista {
+        width: 100%;
+        max-width: to-rem(800);
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: to-rem(32);
+        row-gap: to-rem(32);
+
+        .beneficios-item {
+          max-width: to-rem(384);
+          flex-direction: column;
+          align-items: flex-start;
+
+          &:not(:last-child) {
+            margin-bottom: 0;
+          }
+
+          div {
+            width: to-rem(196);
+            display: flex;
+            align-items: center;
+            column-gap: to-rem(16);
+            margin-bottom: to-rem(28);
+          }
+
+          p {
+            font-size: to-rem(18);
+            width: 100%;
+          }
+        }
+      }
+
+      .botao.mobile {
+        display: none;
       }
     }
   }

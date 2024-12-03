@@ -95,8 +95,8 @@
           column-gap: to-rem(38);
 
           a svg {
-            width: to-rem(48);
-            height: to-rem(48);
+            min-width: to-rem(48);
+            min-height: to-rem(48);
           }
         }
 
@@ -107,6 +107,28 @@
 
         span {
           font-size: to-rem(18);
+        }
+      }
+    }
+  }
+
+  @include media-min(desktop-large) {
+    .swiper {
+      padding: 0 5vw;
+
+      .convidados-lista .convidado-item {
+        max-width: to-rem(274);
+
+        .redes {
+          height: to-rem(68);
+          column-gap: to-rem(28);
+
+          a svg {
+            min-width: to-rem(32);
+            min-height: to-rem(32);
+            width: to-rem(32);
+            height: to-rem(32);
+          }
         }
       }
     }

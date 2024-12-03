@@ -57,4 +57,38 @@
       max-width: to-rem(688);
     }
   }
+
+  @include media-min(desktop-large) {
+    padding: to-rem(92) 0;
+
+    .container {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+
+      .sobre-info {
+        max-width: to-rem(592);
+
+        h2,
+        p {
+          text-align: left;
+        }
+
+        p {
+          font-size: to-rem(18);
+        }
+
+        .botao {
+          margin-right: 0;
+          margin-left: 0;
+        }
+      }
+
+      .sobre-slider {
+        margin: 0;
+        max-width: to-rem(592);
+      }
+    }
+  }
 }

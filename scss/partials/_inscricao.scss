@@ -38,4 +38,24 @@
       }
     }
   }
+
+  @include media-min(desktop-large) {
+    padding: to-rem(94) 0 to-rem(54);
+
+    .container {
+      max-width: to-rem(1216);
+
+      .inscricao-container {
+        max-width: to-rem(412);
+
+        h2 {
+          max-width: to-rem(364);
+        }
+
+        p {
+          font-size: to-rem(17);
+        }
+      }
+    }
+  }
 }

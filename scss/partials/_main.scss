@@ -116,4 +116,25 @@
       }
     }
   }
+
+  @include media-min(desktop-large) {
+    min-height: to-rem(686);
+    margin-top: to-rem(80);
+    padding: 0;
+
+    .main-container {
+      width: 100%;
+      max-width: to-rem(1216);
+
+      .evento-info,
+      .main-ctas {
+        justify-content: flex-start;
+      }
+
+      .main-titulo,
+      .main-paragrafo {
+        text-align: left;
+      }
+    }
+  }
 }

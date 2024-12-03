@@ -13,10 +13,18 @@
       row-gap: to-rem(16);
       margin-top: to-rem(18);
 
-      li img {
+      li {
         max-height: to-rem(56);
         max-width: to-rem(100);
+
+        img {
+          width: 100%;
+        }
       }
+      // img {
+      //   max-height: to-rem(56);
+      //   max-width: to-rem(100);
+      // }
     }
   }
 
@@ -29,9 +37,32 @@
         column-gap: to-rem(20);
         row-gap: to-rem(20);
 
-        img {
+        li {
           max-width: to-rem(172);
           max-height: to-rem(140);
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  @include media-min(desktop-large) {
+    .container {
+      ul {
+        margin-top: to-rem(56);
+        column-gap: to-rem(102);
+        row-gap: to-rem(54);
+
+        li {
+          max-width: none;
+          max-height: none;
+
+          img {
+            transform: scale(1.2);
+          }
         }
       }
     }

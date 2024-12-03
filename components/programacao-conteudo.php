@@ -5,7 +5,7 @@ global $palestra_tag;
 global $palestra_descricao;
 $palestra_cor;
 
-if($palestra_tag == 'Oficina') {
+if ($palestra_tag == 'Oficina') {
   $palestra_cor = '--roxo';
 } else if ($palestra_tag == 'Mesa Redonda') {
   $palestra_cor = '--rosa';
@@ -16,9 +16,11 @@ if($palestra_tag == 'Oficina') {
 
 <div class="programacao-conteudo">
   <h3><?php echo $palestrante ?></h3>
-  <div class="titulo-tag">
-    <h4><?php echo $palestra_titulo ?></h4>
-    <span class="tag <?php echo $palestra_cor ?>"><?php echo $palestra_tag ?></span>
+  <div class="conteudo-main">
+    <div class="titulo-tag">
+      <h4><?php echo $palestra_titulo ?></h4>
+      <span class="tag <?php echo $palestra_cor ?>"><?php echo $palestra_tag ?></span>
+    </div>
+    <p><?php echo $palestra_descricao ?></p>
   </div>
-  <p><?php echo $palestra_descricao ?></p>
 </div>

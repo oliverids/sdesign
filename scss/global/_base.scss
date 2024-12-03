@@ -14,6 +14,10 @@ h2 {
   @include media-min(medium) {
     font-size: to-rem(40);
   }
+
+  @include media-min(desktop-large) {
+    font-size: to-rem(32);
+  }
 }
 
 .secao-bg__preto {
@@ -42,6 +46,12 @@ h2 {
       font-size: to-rem(18);
     }
   }
+
+  @include media-min(desktop-large) {
+    h2 {
+      font-size: to-rem(40);
+    }
+  }
 }
 
 p {
@@ -58,6 +68,12 @@ p {
 
   @include media-min(medium) {
     padding: 0 to-rem(40);
+  }
+
+  @include media-min(desktop-large) {
+    max-width: to-rem(1216);
+    padding: 0;
+    margin: 0 auto;
   }
 }
 
@@ -94,6 +110,10 @@ p {
   @include media-min(medium) {
     padding: to-rem(14) to-rem(24) to-rem(16);
     font-size: to-rem(16);
+  }
+
+  @include media-min(desktop-large) {
+    font-size: to-rem(18);
   }
 }
 
