@@ -7,16 +7,15 @@
   <link rel="stylesheet" href="css/index.min.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <title>SDESIGN 2024 — Semana do Design</title>
-
   <?php require_once('./components/header-meta.php'); ?>
-
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
   <header class="header">
     <div class="container">
-      <?php include('assets/img/header-logo.svg') ?>
+      <a href="#" id="header-logo"><?php include('assets/img/header-logo.svg') ?></a>
+
       <button class="header__menu">
         <div></div>
       </button>
@@ -36,7 +35,7 @@
 
     <div class="container main-container">
       <div class="evento-info">
-        <img src="assets/img/main__logo.png" alt="Logo do Sdesign 2024.">
+        <img src="assets/img/main__logo.png" alt="Logo do SDesign 2024.">
         <span>04 a 07 DE DEZEMBRO DE 2024 <br /> VITORIA - ES</span>
       </div>
 
@@ -57,13 +56,13 @@
   <section id="sobre">
     <div class="container">
       <div class="sobre-info">
-        <h2>O que é a Sdesign?</h2>
-        <p>O Sdesign é um evento realizado por estudantes do curso de Design UFES e tem como objetivo promover uma
+        <h2>O que é a SDesign?</h2>
+        <p>O SDesign é um evento realizado por estudantes do curso de Design UFES e tem como objetivo promover uma
           semana acadêmica de integração entre designers em formação, profissionais e admiradores da área.</p>
         <p>Por meio de <strong>palestras, oficinas, rodas de conversa e entre outras atividades</strong>, será o
           ambiente ideal para compartilhar conhecimentos e criar novas conexões.</p>
 
-        <a href="https://www.even3.com.br/sdesign-perspectivas/" class="botao --primario">Quero estar na Sdesign</a>
+        <a href="https://www.even3.com.br/sdesign-perspectivas/" class="botao --primario">Quero estar na SDesign</a>
       </div>
 
       <div class="swiper sobre-slider">
@@ -92,7 +91,7 @@
           potencial transformador da profissão.
         </p>
 
-        <p><strong>O Sdesign 2024 é sobre isso!</strong> Queremos ampliar o olhar sobre a área profissional do Design,
+        <p><strong>O SDesign 2024 é sobre isso!</strong> Queremos ampliar o olhar sobre a área profissional do Design,
           dando destaque a trajetórias não tão convencionais em nosso meio. É sobre o encontro de narrativas,
           circundando e conectando o tradicional às novas <strong>perspectivas</strong>.  </p>
       </div>
@@ -105,8 +104,9 @@
     <div class="container">
 
       <div>
-        <h2>O Sdesign é essencial para você que busca:</h2>
-        <a href="https://www.even3.com.br/sdesign-perspectivas/" class="botao --primario desktop">Garantir participação</a>
+        <h2>O SDesign é essencial para você que busca:</h2>
+        <a href="https://www.even3.com.br/sdesign-perspectivas/" class="botao --primario desktop">Garantir
+          participação</a>
       </div>
 
       <ul class="beneficios-lista">
@@ -133,7 +133,7 @@
             <img src="assets/img/beneficios-icon__3.svg" alt="">
             <h3>Comunidade</h3>
           </div>
-          <p>O Sdesign é a oportunidade perfeita para conhecer os demais estudantes e profissionais capixabas da área,
+          <p>O SDesign é a oportunidade perfeita para conhecer os demais estudantes e profissionais capixabas da área,
             reforçando a comunidade de designers e criando uma rede de apoio profissional.</p>
         </li>
 
@@ -255,7 +255,7 @@
 
   <section class="apoio secao-bg__preto">
     <div class="container">
-      <h2>Veja quem apoia o Sdesign Perspectivas</h2>
+      <h2>Veja quem apoia o SDesign Perspectivas</h2>
       <p>Conheça as empresas e instituições que tornam o SDesign 2024 possível</p>
 
       <ul>
@@ -276,7 +276,7 @@
   <section class="inscricao">
     <div class="container">
       <div class="inscricao-container">
-        <h2>Venha fazer suas conexões na Sdesign</h2>
+        <h2>Venha fazer suas conexões na SDesign</h2>
         <p>Não perca a oportunidade de se conectar com profissionais e expandir seu conhecimento em design.</p>
         <a href="https://www.even3.com.br/sdesign-perspectivas/" class="botao --primario">Garantir Inscrição</a>
       </div>
@@ -291,27 +291,32 @@
       <div class="faq-lista">
         <details>
           <summary><span>O evento é gratuito?</span> <span>+</span></summary>
-          <p>Sim, o SDesign 2024 é totalmente gratuito! Nosso objetivo é tornar o evento acessível a todos que têm interesse em design, inovação e cultura.</p>
+          <p>Sim, o SDesign 2024 é totalmente gratuito! Nosso objetivo é tornar o evento acessível a todos que têm
+            interesse em design, inovação e cultura.</p>
         </details>
 
         <details>
           <summary>Como faço para me inscrever no evento? <span>+</span></summary>
-          <p>As inscrições podem ser feitas diretamente pelo site oficial do evento. Basta preencher o formulário e garantir sua vaga nas atividades que deseja participar.</p>
+          <p>As inscrições podem ser feitas diretamente pelo site oficial do evento. Basta preencher o formulário e
+            garantir sua vaga nas atividades que deseja participar.</p>
         </details>
 
         <details>
           <summary>Onde o evento será realizado? <span>+</span></summary>
-          <p>O evento acontecerá no HUB ES+, localizado no Centro Histórico de Vitória, ES. Algumas atividades também serão realizadas em espaços ao redor da Praça Costa Pereira.</p>
+          <p>O evento acontecerá no HUB ES+, localizado no Centro Histórico de Vitória, ES. Algumas atividades também
+            serão realizadas em espaços ao redor da Praça Costa Pereira.</p>
         </details>
 
         <details>
           <summary>Posso participar de qualquer atividade do evento? <span>+</span></summary>
-          <p>Sim! No entanto, algumas oficinas e palestras terão vagas limitadas, por isso é importante se inscrever com antecedência para garantir sua participação.</p>
+          <p>Sim! No entanto, algumas oficinas e palestras terão vagas limitadas, por isso é importante se inscrever com
+            antecedência para garantir sua participação.</p>
         </details>
 
         <details>
           <summary>O evento oferece certificado de participação? <span>+</span></summary>
-          <p>Sim, todos os participantes inscritos que comparecerem às atividades receberão um certificado digital ao final do evento.</p>
+          <p>Sim, todos os participantes inscritos que comparecerem às atividades receberão um certificado digital ao
+            final do evento.</p>
         </details>
       </div>
     </div>
@@ -320,7 +325,7 @@
   <footer></footer>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="scripts/main.js"></script>
+  <script src="scripts/main.min.js"></script>
 </body>
 
 </html>

@@ -92,10 +92,10 @@
     $foto_src = 'maria_clara_ferreira';
     $nome = 'Maria Clara Ferreira';
     $profissao = 'Designer, produtora e multiartista';
-    $website = 'https://www.maisdeumlobo.com/';
-    $behance = 'https://www.behance.net/maisdeumlobo';
-    $linkedin = 'https://www.linkedin.com/in/amandalobos/';
-    $instagram = 'https://www.instagram.com/maisdeumlobo/';
+    $website = 'https://lacunadesign.com.br';
+    $behance = 'https://www.behance.net/mariclerofb17d';
+    $linkedin = 'https://www.linkedin.com/in/mariaclara-ferreira/';
+    $instagram = 'https://www.instagram.com/mariaclara_of/';
     include('convidado-item.php')
     ?>
 
@@ -103,10 +103,10 @@
     $foto_src = 'katia_miller';
     $nome = 'Katia Miller';
     $profissao = 'Professora da Ufes e Coorenadora da Materio.Lab';
-    $website = 'https://www.maisdeumlobo.com/';
-    $behance = 'https://www.behance.net/maisdeumlobo';
-    $linkedin = 'https://www.linkedin.com/in/amandalobos/';
-    $instagram = 'https://www.instagram.com/maisdeumlobo/';
+    $website = 'https://www.instagram.com/materio.lab_ufes/';
+    $behance = '';
+    $linkedin = '';
+    $instagram = 'https://www.instagram.com/katiabroeto/';
     include('convidado-item.php')
     ?>
 

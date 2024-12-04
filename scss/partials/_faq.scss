@@ -23,6 +23,8 @@
       margin: 0 auto;
 
       details {
+        cursor: pointer;
+
         &:not(:last-child) {
           margin-bottom: to-rem(4);
         }

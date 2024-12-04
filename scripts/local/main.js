@@ -3,6 +3,7 @@ const header = document.querySelector(".header");
 const menuButton = document.querySelector(".header__menu");
 const menuLinks = document.querySelectorAll(".header-nav a");
 
+// MENU ATIVO ===================
 menuButton.addEventListener("click", () => {
 	header.classList.toggle("--ativo");
 
@@ -19,6 +20,17 @@ menuButton.addEventListener("click", () => {
 		document.body.classList.remove("overflow-hidden");
 	}
 });
+
+// HEADER SCROLL ===================
+const checaScrollHeader = () => {
+	let topoPagina = window.pageYOffset || document.documentElement.scrollTop;
+
+	topoPagina === 0 ? header.classList.remove('--scroll-down') : header.classList.add('--scroll-down');
+}
+
+window.addEventListener('scroll', () => checaScrollHeader());
+window.addEventListener('DOMContentLoaded', () => checaScrollHeader());
+
 
 // SWIPER ===================
 new Swiper(".sobre-slider", {

@@ -19,7 +19,7 @@
   $palestrante = 'Maratona Criativa';
   $palestra_titulo = 'Criando Projetos para Seu Portfólio';
   // $palestra_tag = 'Oficina';
-  $palestra_descricao = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempo.';
+  $palestra_descricao = 'Participe da análise de portfólios promovida pela SDesign e TEM Design! Receba feedbacks de especialistas para aprimorar seu portfólio, aprender a se destacar e se preparar para o mercado de design.';
   include('components/programacao-conteudo.php')
   ?>
 </li>
@@ -32,7 +32,7 @@
   $palestrante = 'Análise de Portfólios';
   $palestra_titulo = 'Com a Tem Design';
   // $palestra_tag = 'Oficina';
-  $palestra_descricao = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempo.';
+  $palestra_descricao = 'Participe da análise de portfólios promovida pela SDesign e TEM Design! Receba feedbacks de especialistas para aprimorar seu portfólio, aprender a se destacar e se preparar para o mercado de design.';
   include('components/programacao-conteudo.php')
   ?>
 </li>

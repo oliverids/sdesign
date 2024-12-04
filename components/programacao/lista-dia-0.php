@@ -64,6 +64,19 @@
 
 <li class="programacao-item">
   <div class="programacao-hora">
+    <span>13h30 às 14h30</span>
+  </div>
+  <?php
+  $palestrante = '???';
+  $palestra_titulo = 'Transformando desafios em soluções visuais incríveis';
+  $palestra_tag = '???';
+  $palestra_descricao = 'Crie um moodboard como ponto de partida para uma identidade visual única! Explore referências, paletas, tipografias e elementos gráficos que capturem a essência do cliente e sua solução. Ferramentas e suporte estarão disponíveis para sua criação.';
+  include('components/programacao-conteudo.php')
+  ?>
+</li>
+
+<li class="programacao-item">
+  <div class="programacao-hora">
     <span>15h às 16h30</span>
   </div>
   <?php
