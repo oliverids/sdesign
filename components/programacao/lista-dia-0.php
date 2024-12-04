@@ -51,7 +51,7 @@
 
 <li class="programacao-item">
   <div class="programacao-hora">
-    <span>13h30 às 14h30</span>
+    <span>15h30 às 16h30</span>
   </div>
   <?php
   $palestrante = 'Denis Fujii';

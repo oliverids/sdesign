@@ -6,7 +6,7 @@
   <div class="conteudo-linha">
     <?php
     $palestrante = 'Jo Name (Docente UFES)';
-    $palestra_titulo = 'TOficina';
+    $palestra_titulo = 'Oficina';
     $palestra_tag = 'Oficina';
     $palestra_descricao = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempo.';
     include('components/programacao-conteudo.php')
