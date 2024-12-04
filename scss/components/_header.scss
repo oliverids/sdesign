@@ -179,7 +179,6 @@ header {
 
       #header-logo svg path {
         fill: var(--sdesign-preto) !important;
-
       }
     }
 
@@ -188,11 +187,13 @@ header {
 
       #header-logo {
         display: block;
-        max-width: to-rem(148);
-        height: auto;
 
-        path {
-          fill: var(--sdesign-preto);
+        svg {
+          max-width: to-rem(148);
+
+          path {
+            fill: var(--sdesign-preto);
+          }
         }
       }
 

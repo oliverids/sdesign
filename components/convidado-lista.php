@@ -28,7 +28,7 @@
     $profissao = 'Cinografia';
     $website = '';
     $behance = '';
-    $linkedin = '';
+    $linkedin = 'https://www.linkedin.com/in/ananda-miranda';
     $instagram = 'https://www.instagram.com/edacjr.ufes';
     include('convidado-item.php')
     ?>
@@ -160,7 +160,7 @@
     $nome = 'Cris Ibarra';
     $profissao = 'Designer, podcaster e Professora da UFPE';
     $website = 'https://sentipensantepodcast.wordpress.com';
-    $website = '';
+    $website = 'https://sentipensantepodcast.wordpress.com/';
     $behance = '';
     $linkedin = 'https://www.linkedin.com/in/mcibarra/';
     $instagram = 'https://www.instagram.com/cris_ibarrah/';
@@ -179,20 +179,10 @@
     ?>
 
     <?php
-    $foto_src = 'comboio';
-    $nome = 'Comboio';
-    $profissao = 'Estúdio de Animação e Ilustração';
-    $website = 'https://www.maisdeumlobo.com/';
-    $behance = 'https://www.behance.net/comboioart';
-    $linkedin = 'https://www.linkedin.com/company/comboio-art/';
-    $instagram = 'https://www.instagram.com/comboio.art/';
-    include('convidado-item.php')
-    ?>
-
-    <?php
     $foto_src = 'julio_cesar';
     $nome = 'Julio Cesar';
     $profissao = 'UX Researcher Specialist - Grupo OLX';
+    $website = '';
     $behance = '';
     $linkedin = 'https://www.linkedin.com/in/julio-césar-reis-alves-6177b715b/';
     $instagram = 'https://www.instagram.com/reisjulios_/';

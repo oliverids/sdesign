@@ -159,7 +159,17 @@
       <p>Conheça nossos palestrantes e convidados especiais</p>
     </div>
 
-    <?php require_once('components/convidado-lista.php') ?>
+    <div class="convidados-wrapper">
+      <?php
+      $swiper_nav = 'prev';
+      include('components/convidados-arrow.php') ?>
+
+      <?php require_once('components/convidado-lista.php') ?>
+
+      <?php
+      $swiper_nav = 'prev';
+      include('components/convidados-arrow.php') ?>
+    </div>
   </section>
 
   <section id="programacao" data-aos="fade-up" data-aos-duration="1500">

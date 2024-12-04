@@ -3,6 +3,12 @@
 #convidados {
   padding: to-rem(38) 0 to-rem(58);
 
+  .convidados-wrapper {
+    .convidados-arrow {
+      display: none;
+    }
+  }
+
   .swiper {
     margin-top: to-rem(14);
     width: 100%;
@@ -113,6 +119,39 @@
   }
 
   @include media-min(desktop-large) {
+    .convidados-wrapper {
+      display: flex;
+      align-items: center;
+
+      .convidados-arrow {
+        position: static !important;
+        display: block;
+        min-width: to-rem(44);
+        width: 100%;
+        max-width: to-rem(90);
+        display: flex;
+        justify-content: center;
+
+        &::after,
+        &::before {
+          display: none;
+        }
+
+        &:first-child {
+          transform: scaleX(-1);
+        }
+
+        button {
+          transition: .3s all ease-in-out;
+
+          &:hover svg path {
+            stroke: var(--sdesign-laranja);
+            transition: .3s all ease-in-out;
+          }
+        }
+      }
+    }
+
     .swiper {
       padding: 0 5vw;
 

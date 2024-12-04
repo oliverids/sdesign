@@ -47,14 +47,28 @@ new Swiper(".convidados-slider", {
 	spaceBetween: 32,
 	centeredSlides: true,
 	loop: true,
+	navigation: {
+		nextEl: ".swiper-button-next",
+		prevEl: ".swiper-button-prev",
+	},
 	breakpoints: {
 		768: {
 			spaceBetween: 45,
 		},
-		// 1366: {
-		// 	slidesPerView: 5,
-		// 	spaceBetween: 82,
-		// },
+		1366: {
+			slidesPerView: 3,
+			spaceBetween: 82,
+		},
+		1366: {
+			slidesPerView: 3,
+			spaceBetween: 82,
+		},
+		1580: {
+			slidesPerView: 4,
+		},
+		1920: {
+			slidesPerView: 5,
+		},
 	},
 });
 
