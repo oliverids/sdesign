@@ -8,6 +8,11 @@
     max-width: none;
     padding: 0;
 
+    .left,
+    .right {
+      max-width: 80vw;
+    }
+
     .left {
       transform: scaleX(-1);
     }
@@ -63,13 +68,13 @@
       .right {
         position: absolute;
         margin: 0 !important;
-        transform: scale(1.2);
+        transform: scale(1.1);
         top: 20%;
       }
 
       .left {
         left: -11vw;
-        transform: scale(1.2) scaleX(-1);
+        transform: scale(1.1) scaleX(-1);
       }
 
       .right {

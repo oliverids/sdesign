@@ -9,6 +9,7 @@
   <title>SDESIGN 2024 — Semana do Design</title>
   <?php require_once('./components/header-meta.php'); ?>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -53,7 +54,7 @@
     <img class="banner-bg bg__img-2" src="assets/img/banner-bg-2.svg" alt="" srcset="">
   </main>
 
-  <section id="sobre">
+  <section id="sobre" data-aos="fade-up" data-aos-duration="1500">
     <div class="container">
       <div class="sobre-info">
         <h2>O que é a SDesign?</h2>
@@ -75,7 +76,7 @@
     </div>
   </section>
 
-  <section class="multiplas-perspectivas">
+  <section class="multiplas-perspectivas" data-aos="fade-up" data-aos-duration="1000">
 
     <div class="container">
       <img class="left" src="assets/img/perspectivas-bg.svg" alt="">
@@ -161,7 +162,7 @@
     <?php require_once('components/convidado-lista.php') ?>
   </section>
 
-  <section id="programacao">
+  <section id="programacao" data-aos="fade-up" data-aos-duration="1500">
     <div class="container">
       <div class="secao-intro">
         <div class="secao-titulo">
@@ -325,6 +326,10 @@
   <footer></footer>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+  </script>
   <script src="scripts/main.min.js"></script>
 </body>
 
