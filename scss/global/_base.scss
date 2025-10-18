@@ -1,4 +1,4 @@
-@use "../abstracts" as *;
+@use "../abstracts"as *;
 
 body {
   font-family: var(--font-body);
@@ -9,7 +9,7 @@ h2 {
   font-size: to-rem(18);
   font-family: var(--font-head);
   line-height: 1.2;
-  color: var(--sdesign-laranja);
+  color: var(--sdesign-verde);
 
   @include media-min(medium) {
     font-size: to-rem(40);
@@ -29,7 +29,7 @@ h2 {
     margin-bottom: to-rem(4);
   }
 
-  .container > p {
+  .container>p {
     color: var(--sdesign-branco);
     text-align: center;
     font-size: to-rem(10);
@@ -42,7 +42,7 @@ h2 {
       margin-bottom: to-rem(8);
     }
 
-    .container > p {
+    .container>p {
       font-size: to-rem(18);
     }
   }

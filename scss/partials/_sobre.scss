@@ -1,7 +1,7 @@
-@use "../abstracts" as *;
+@use "../abstracts"as *;
 
 #sobre {
-  padding: to-rem(38) 0;
+  padding-top: to-rem(38);
 
   .sobre-info {
     h2 {
@@ -35,7 +35,7 @@
   }
 
   @include media-min(medium) {
-    padding: to-rem(80) 0;
+    padding-top: to-rem(80);
 
     .sobre-info {
       h2 {
@@ -59,7 +59,7 @@
   }
 
   @include media-min(desktop-large) {
-    padding: to-rem(92) 0;
+    padding-top: to-rem(92);
 
     .container {
       display: flex;

@@ -1,20 +1,20 @@
-@use "../abstracts" as *;
+@use "../abstracts"as *;
 
 .multiplas-perspectivas {
   padding-bottom: to-rem(40);
   overflow-x: hidden;
+  overflow-y: hidden;
 
   .container {
     max-width: none;
     padding: 0;
 
-    .left,
-    .right {
-      max-width: 80vw;
+    .left {
+      height: 600px;
     }
 
-    .left {
-      transform: scaleX(-1);
+    .right {
+      height: 800px;
     }
 
     .right {
@@ -31,7 +31,7 @@
         margin-bottom: to-rem(8);
       }
 
-      p:last-child {
+      p:not(:first-child) {
         margin-top: to-rem(14);
       }
     }
@@ -44,13 +44,13 @@
       max-width: to-rem(688);
 
       h2 {
-        margin-bottom: to-rem(16);
+        margin-bottom: to-rem(40);
       }
 
       p {
-        font-size: to-rem(24);
+        font-size: to-rem(16);
 
-        &:last-child {
+        &:not(:first-child) {
           margin-top: to-rem(20);
         }
       }
@@ -63,6 +63,8 @@
     .container {
       display: flex;
       justify-content: center;
+      align-items: flex-end;
+      height: 615px;
 
       .left,
       .right {
@@ -113,16 +115,17 @@
 
       .left,
       .right {
-        transform: scale(1.5);
+        transform: scale(1.0);
       }
 
       .left {
-        left: 0;
-        transform: scale(1.5) scaleX(-1);
+        left: -44px;
+        top: 114px;
       }
 
       .right {
-        right: 0;
+        right: -136px;
+        top: -0;
       }
     }
   }

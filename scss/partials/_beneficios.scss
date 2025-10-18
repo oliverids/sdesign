@@ -1,7 +1,9 @@
-@use "../abstracts" as *;
+@use "../abstracts"as *;
 
 .beneficios {
   padding: to-rem(56) 0 to-rem(38);
+  position: relative;
+  z-index: 2;
 
   div {
     h2 {
@@ -46,7 +48,7 @@
             font-family: var(--font-head);
             line-height: 1;
             text-align: center;
-            color: var(--sdesign-laranja);
+            color: var(--sdesign-verde);
           }
         }
 
@@ -116,6 +118,7 @@
 
       div {
         max-width: to-rem(384);
+
         h2 {
           text-align: left;
         }

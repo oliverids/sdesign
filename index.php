@@ -37,7 +37,7 @@
     <div class="container main-container">
       <div class="evento-info">
         <img src="assets/img/main__logo.png" alt="Logo do SDesign 2024.">
-        <span>04 a 07 DE DEZEMBRO DE 2025 <br /> VITORIA - ES</span>
+        <span>05 a 08 de Novembro de 2025 <br /> Vitória - ES</span>
       </div>
 
       <h1 class="main-titulo">Explore novos caminhos <span class="main-titulo__subtitulo">no Design e fortaleça suas 
@@ -77,27 +77,31 @@
   </section>
 
   <section class="multiplas-perspectivas" data-aos="fade-up" data-aos-duration="1000">
-
     <div class="container">
-      <img class="left" src="assets/img/perspectivas-bg.svg" alt="">
+      <img class="left" src="assets/img/voltinha-estrela.svg" alt="">
+
       <div class="multiplas-container">
-        <h2>Uma área,<br />múltiplas perspectivas</h2>
+        <h2>O Design é feito de encontros,<br />trocas e conexões.</h2>
 
         <p>
-          O Design é uma área muito ampla e versátil!
-          Então, é fundamental expandirmos nossos horizontes para além da formação formal. Tanto no sentido de
-          ampliarmos
-          nossos conhecimentos e tomar consciência sobre as nossas possibilidades de atuação, quanto no reconhecimento
-          do
-          potencial transformador da profissão.
+          Mais do que uma área ampla e versátil, ele se constrói nas relações que criamos entre pessoas, ideias, saberes e experiências.
         </p>
 
-        <p><strong>O SDesign 2024 é sobre isso!</strong> Queremos ampliar o olhar sobre a área profissional do Design,
-          dando destaque a trajetórias não tão convencionais em nosso meio. É sobre o encontro de narrativas,
-          circundando e conectando o tradicional às novas <strong>perspectivas</strong>.  </p>
+        <p>A SDesign 2025 é sobre isso: <strong>Conexões.</strong></p>
+
+        <p>
+          Queremos destacar como a profissão ganha força quando abrimos espaço para diferentes trajetórias, aproximando o 
+          <strong>tradicional do novo,</strong> o 
+          <strong>formal do popular,</strong> o 
+          <strong>acadêmico do cotidiano.</strong>
+        </p>
+
+        <p>
+          É nesse cruzamento de narrativas que o Design se reinventa e revela todo o seu potencial transformador.
+        </p>
       </div>
 
-      <img class="right" src="assets/img/perspectivas-bg.svg" alt="">
+      <img class="right" src="assets/img/voltinha-hashtag.svg" alt="">
     </div>
   </section>
 

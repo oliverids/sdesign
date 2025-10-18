@@ -1,15 +1,15 @@
 @font-face {
-  font-family: 'Ufes Sans Bold'; 
+  font-family: 'Ufes Sans Bold';
   src: url('../assets/fonts/UfesSans-Bold.ttf') format('truetype');
-  font-weight: 700; 
-  font-style: normal; 
+  font-weight: 700;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: 'Ufes Sans Regular'; 
+  font-family: 'Ufes Sans Regular';
   src: url('../assets/fonts/UfesSans-Regular.ttf') format('truetype');
-  font-weight: 400; 
-  font-style: normal; 
+  font-weight: 400;
+  font-style: normal;
 }
 
 :root {
@@ -17,6 +17,7 @@
   --font-body: "Ufes Sans Regular", sans-serif;
   --font-head: "Ufes Sans Bold", sans-serif;
 
+  --sdesign-verde: #51B477;
   --sdesign-laranja: #F54739;
   --sdesign-roxo: #9E005D;
   --sdesign-amarelo: #F47C03;

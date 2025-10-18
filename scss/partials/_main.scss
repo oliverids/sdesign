@@ -1,4 +1,4 @@
-@use "../abstracts" as *;
+@use "../abstracts"as *;
 
 .main {
   background-color: var(--sdesign-preto);
@@ -57,6 +57,7 @@
       justify-content: center;
       align-items: center;
       column-gap: to-rem(14);
+      gap: 3rem;
 
       img {
         max-width: to-rem(40);
@@ -85,7 +86,7 @@
       }
 
       &__destaque {
-        color: var(--sdesign-laranja);
+        color: var(--sdesign-verde);
       }
     }
 
