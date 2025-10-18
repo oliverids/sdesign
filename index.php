@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/index.min.css">
+  <link rel="stylesheet" href="css/index.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <title>SDESIGN 2024 — Semana do Design</title>
   <?php require_once('./components/header-meta.php'); ?>
@@ -37,11 +37,11 @@
     <div class="container main-container">
       <div class="evento-info">
         <img src="assets/img/main__logo.png" alt="Logo do SDesign 2024.">
-        <span>04 a 07 DE DEZEMBRO DE 2024 <br /> VITORIA - ES</span>
+        <span>04 a 07 DE DEZEMBRO DE 2025 <br /> VITORIA - ES</span>
       </div>
 
-      <h1 class="main-titulo">Amplie suas possibilidades <span class="main-titulo__subtitulo">no Design e descubra novas
-          <span class="main-titulo__destaque">Perspectivas</span></span></h1>
+      <h1 class="main-titulo">Explore novos caminhos <span class="main-titulo__subtitulo">no Design e fortaleça suas 
+          <span class="main-titulo__destaque">conexões</span></span></h1>
 
       <p class="main-paragrafo">Garanta seu ingresso na edição histórica da Semana de Design UFES </p>
 

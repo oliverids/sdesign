@@ -1,4 +1,4 @@
-@use "../abstracts" as *;
+@use "../abstracts"as *;
 
 header {
   position: fixed;
@@ -126,10 +126,6 @@ header {
 
       #header-logo {
         display: block;
-
-        path {
-          fill: var(--sdesign-branco)
-        }
       }
     }
   }
@@ -176,10 +172,6 @@ header {
       background-color: var(--sdesign-branco);
       box-shadow: 0 1px 0 #cccccc93;
       transition: .2s all ease-in-out;
-
-      #header-logo svg path {
-        fill: var(--sdesign-preto) !important;
-      }
     }
 
     .container {
@@ -190,10 +182,6 @@ header {
 
         svg {
           max-width: to-rem(148);
-
-          path {
-            fill: var(--sdesign-preto);
-          }
         }
       }
 

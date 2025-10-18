@@ -6,5 +6,9 @@
     "gulp": "^5.0.0",
     "gulp-rename": "^2.0.0",
     "gulp-uglify": "^3.0.2"
+  },
+  "scripts": {
+    "build": "sass assets/scss:assets/css --style=compressed",
+    "watch": "sass --watch assets/scss:assets/css"
   }
 }
