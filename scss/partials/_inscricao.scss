@@ -4,12 +4,12 @@
   padding: to-rem(24) 0;
   background-image: url("../assets/img/inscricao-bg.svg");
   background-repeat: no-repeat;
-  background-size: 184%;
-  background-position: 40% 78%;
+  background-size: 113%;
+  background-position: 103% 47%;
 
   .container {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     max-width: to-rem(488);
     margin: 0 auto;
 
@@ -28,14 +28,14 @@
   }
 
   @include media-min(600px) {
-    background-size: 148%;
-    background-position: 23% 96%;
+    background-size: 107%;
+    background-position: 135% 96%;
   }
 
   @include media-min(medium) {
     padding: to-rem(50) 0;
-    background-size: 159%;
-    background-position: 35% 96%;
+    background-size: 115%;
+    background-position: 70% 96%;
 
     .container {
       max-width: to-rem(800);
