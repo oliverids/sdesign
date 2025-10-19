@@ -55,6 +55,7 @@ a {
   --sdesign-verde: #51B477;
   --sdesign-laranja: #F54739;
   --sdesign-roxo: #9E005D;
+  --sdesign-lilas: #8B4C98;
   --sdesign-amarelo: #F47C03;
   --sdesign-rosa: #F51B67;
   --sdesign-preto: #1D1D1B;
@@ -1493,7 +1494,7 @@ header.--ativo .header-nav.mobile {
 .faq .container .faq-lista details p {
   text-align: left;
   line-height: 1.5;
-  border-left: 0.375rem solid var(--sdesign-laranja);
+  border-left: 0.375rem solid var(--sdesign-lilas);
   background-color: var(--sdesign-branco);
   border-radius: 0 0 0.375rem 0.375rem;
   margin: 0;
@@ -1503,7 +1504,7 @@ header.--ativo .header-nav.mobile {
   overflow: hidden;
 }
 .faq .container .faq-lista details[open] summary {
-  background: var(--sdesign-laranja);
+  background: var(--sdesign-lilas);
   color: var(--sdesign-branco);
   border-bottom-left-radius: 0;
 }
@@ -1537,7 +1538,7 @@ header.--ativo .header-nav.mobile {
 }
 @media only screen and (min-width: 85.375rem) {
   .faq {
-    padding: 3.875rem 0 10rem;
+    padding: 2rem 0 10rem;
   }
   .faq .container h2 {
     font-size: 2.5rem;

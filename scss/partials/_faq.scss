@@ -1,4 +1,4 @@
-@use "../abstracts" as *;
+@use "../abstracts"as *;
 
 .faq {
   padding-bottom: to-rem(8);
@@ -43,7 +43,7 @@
         p {
           text-align: left;
           line-height: 1.5;
-          border-left: to-rem(6) solid var(--sdesign-laranja);
+          border-left: to-rem(6) solid var(--sdesign-lilas);
           background-color: var(--sdesign-branco);
           border-radius: 0 0 to-rem(6) to-rem(6);
           margin: 0;
@@ -54,7 +54,7 @@
           overflow: hidden;
 
           summary {
-            background: var(--sdesign-laranja);
+            background: var(--sdesign-lilas);
             color: var(--sdesign-branco);
             border-bottom-left-radius: 0;
           }
@@ -109,7 +109,7 @@
   }
 
   @include media-min(desktop-large) {
-    padding: to-rem(62) 0 to-rem(160);
+    padding: to-rem(32) 0 to-rem(160);
 
     .container {
       h2 {
