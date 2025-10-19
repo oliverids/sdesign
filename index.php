@@ -171,7 +171,7 @@
       <?php require_once('components/convidado-lista.php') ?>
 
       <?php
-      $swiper_nav = 'prev';
+      $swiper_nav = 'next';
       include('components/convidados-arrow.php') ?>
     </div>
   </section>
