@@ -9,16 +9,21 @@
     max-width: none;
     padding: 0;
 
+    .left,
+    .right {
+      top: 10%;
+      position: relative;
+    }
+
     .left {
-      height: 600px;
+      left: -1vw;
+      top: 7vh;
+      transform: rotate(106deg);
     }
 
     .right {
-      height: 800px;
-    }
-
-    .right {
-      margin-left: auto;
+      right: -51vw;
+      top: 16vh;
     }
 
     .multiplas-container {
@@ -64,23 +69,23 @@
       display: flex;
       justify-content: center;
       align-items: flex-end;
-      height: 615px;
+      height: 542px;
 
       .left,
       .right {
-        position: absolute;
-        margin: 0 !important;
-        transform: scale(1.1);
-        top: 20%;
+        top: 10%;
+        transform: scale(0.75);
+        position: relative;
       }
 
       .left {
-        left: -11vw;
-        transform: scale(1.1) scaleX(-1);
+        left: 1vw;
+        top: 14vh;
       }
 
       .right {
-        right: -11vw;
+        right: 0vw;
+        top: 22vh;
       }
 
       .multiplas-container {
@@ -96,16 +101,16 @@
 
       .left,
       .right {
-        transform: scale(1.3);
+        transform: scale(0.9);
       }
 
       .left {
         left: -5vw;
-        transform: scale(1.3) scaleX(-1);
+        top: 12vh;
       }
 
       .right {
-        right: -5vw;
+        right: -10vw;
       }
     }
   }
@@ -125,7 +130,7 @@
 
       .right {
         right: -136px;
-        top: -0;
+        top: 191px;
       }
     }
   }
