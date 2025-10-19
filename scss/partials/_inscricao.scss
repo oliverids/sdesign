@@ -1,11 +1,11 @@
-@use "../abstracts" as *;
+@use "../abstracts"as *;
 
 .inscricao {
   padding: to-rem(24) 0;
   background-image: url("../assets/img/inscricao-bg.svg");
   background-repeat: no-repeat;
   background-size: 184%;
-  background-position: 40% 102%;
+  background-position: 40% 78%;
 
   .container {
     display: flex;
@@ -51,8 +51,10 @@
   }
 
   @include media-min(desktop-large) {
-    padding: to-rem(94) 0 to-rem(54);
-    background-size: cover;
+    padding: 11.875rem 0 3.375rem;
+    background-size: 109%;
+    background-position: 111% 63%;
+
     .container {
       max-width: to-rem(1216);
       justify-content: center;

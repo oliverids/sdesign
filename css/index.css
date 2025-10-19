@@ -1393,7 +1393,7 @@ header.--ativo .header-nav.mobile {
   background-image: url("../assets/img/inscricao-bg.svg");
   background-repeat: no-repeat;
   background-size: 184%;
-  background-position: 40% 102%;
+  background-position: 40% 78%;
 }
 .inscricao .container {
   display: flex;
@@ -1435,8 +1435,9 @@ header.--ativo .header-nav.mobile {
 }
 @media only screen and (min-width: 85.375rem) {
   .inscricao {
-    padding: 5.875rem 0 3.375rem;
-    background-size: cover;
+    padding: 11.875rem 0 3.375rem;
+    background-size: 109%;
+    background-position: 111% 63%;
   }
   .inscricao .container {
     max-width: 76rem;
