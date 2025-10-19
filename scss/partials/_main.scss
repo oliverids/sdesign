@@ -26,8 +26,7 @@
     &.bg__img-1 {
       // transform: scale(0.6);
       margin: 0 auto;
-      max-width: to-rem(192);
-      object-fit: contain;
+      max-width: to-rem(90);
       // top: to-rem(-270);
       // width: 60vw;
       // top: to-rem(54);
@@ -37,8 +36,10 @@
     &.bg__img-2 {
       // transform: scale(0.8);
       margin-left: auto;
-      max-width: to-rem(250);
-      object-fit: contain;
+      max-width: to-rem(146);
+      position: relative;
+      top: -12px;
+      left: 20px;
 
       // bottom: to-rem(-400);
       // right: 0;
@@ -111,11 +112,14 @@
 
     .banner-bg {
       &.bg__img-1 {
-        max-width: to-rem(400);
+        max-width: to-rem(320);
       }
 
       &.bg__img-2 {
-        max-width: to-rem(500);
+        max-width: to-rem(350);
+        position: relative;
+        top: -84px;
+        left: 47px;
       }
     }
 
@@ -150,13 +154,18 @@
   }
 
   @include media-min(desktop) {
+    min-height: to-rem(920);
+
     .banner-bg {
       &.bg__img-1 {
-        max-width: to-rem(640);
+        max-width: to-rem(280);
       }
 
       &.bg__img-2 {
-        max-width: to-rem(700);
+        max-width: to-rem(350);
+        position: relative;
+        top: -84px;
+        left: 47px;
       }
     }
   }

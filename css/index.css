@@ -366,13 +366,14 @@ header.--ativo .header-nav.mobile {
 }
 .main .banner-bg.bg__img-1 {
   margin: 0 auto;
-  max-width: 12rem;
-  object-fit: contain;
+  max-width: 5.625rem;
 }
 .main .banner-bg.bg__img-2 {
   margin-left: auto;
-  max-width: 15.625rem;
-  object-fit: contain;
+  max-width: 9.125rem;
+  position: relative;
+  top: -12px;
+  left: 20px;
 }
 .main .main-container {
   position: relative;
@@ -428,10 +429,13 @@ header.--ativo .header-nav.mobile {
     min-height: 60.75rem;
   }
   .main .banner-bg.bg__img-1 {
-    max-width: 25rem;
+    max-width: 20rem;
   }
   .main .banner-bg.bg__img-2 {
-    max-width: 31.25rem;
+    max-width: 21.875rem;
+    position: relative;
+    top: -84px;
+    left: 47px;
   }
   .main .main-container .evento-info img {
     max-width: 5.375rem;
@@ -454,11 +458,17 @@ header.--ativo .header-nav.mobile {
   }
 }
 @media only screen and (min-width: 80rem) {
+  .main {
+    min-height: 57.5rem;
+  }
   .main .banner-bg.bg__img-1 {
-    max-width: 40rem;
+    max-width: 17.5rem;
   }
   .main .banner-bg.bg__img-2 {
-    max-width: 43.75rem;
+    max-width: 21.875rem;
+    position: relative;
+    top: -84px;
+    left: 47px;
   }
 }
 @media only screen and (min-width: 85.375rem) {
