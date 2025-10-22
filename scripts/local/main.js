@@ -84,6 +84,16 @@ new Swiper(".depoimentos-slider", {
 	},
 });
 
+new Swiper(".main-slider", {
+	slidesPerView: "auto",
+	centeredSlides: true,
+	loop: true,
+	autoplay: {
+		delay: 3200,
+		disableOnInteraction: true,
+	},
+});
+
 // NAVEGACAO ===================
 const programacaoBtns = document.querySelectorAll("button[data-nav]");
 const programacaoContents = document.querySelectorAll("ul[data-content]");

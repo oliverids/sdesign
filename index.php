@@ -32,26 +32,52 @@
   </header>
 
   <main class="main">
-    <img class="banner-bg bg__img-1" src="assets/img/banner-bg-1.svg" alt="" srcset="">
+    <div class="swiper main-slider">
+      <div class="swiper-wrapper">
 
-    <div class="container main-container">
-      <div class="evento-info">
-        <img src="assets/img/main__logo.png" alt="Logo do SDesign 2024.">
-        <span>05 a 08 de Novembro de 2025 <br /> Vitória - ES</span>
-      </div>
+        <!-- 🟩 SLIDE 1 – Seção completa -->
+        <div class="swiper-slide">
+          <img class="banner-bg bg__img-1" src="assets/img/banner-bg-1.svg" alt="">
 
-      <h1 class="main-titulo">Explore novos caminhos <span class="main-titulo__subtitulo">no Design e fortaleça suas 
-          <span class="main-titulo__destaque">conexões</span></span></h1>
+          <div class="container main-container">
+            <div class="evento-info">
+              <img src="assets/img/main__logo.png" alt="Logo do SDesign 2024.">
+              <span>05 a 08 de Novembro de 2025 <br /> Vitória - ES</span>
+            </div>
 
-      <p class="main-paragrafo">Garanta seu ingresso na edição histórica da Semana de Design UFES </p>
+            <h1 class="main-titulo">
+              Explore novos caminhos
+              <span class="main-titulo__subtitulo">
+                no Design e fortaleça suas
+                <span class="main-titulo__destaque">conexões</span>
+              </span>
+            </h1>
 
-      <div class="main-ctas">
-        <a href="#programacao" class="botao --secundario">Ver Programação</a>
-        <a href="https://www.even3.com.br/sdesign-perspectivas/" class="botao --primario">Inscreva-se Agora</a>
+            <p class="main-paragrafo">
+              Garanta seu ingresso na edição histórica da Semana de Design UFES
+            </p>
+
+            <div class="main-ctas">
+              <a href="#programacao" class="botao --secundario">Ver Programação</a>
+              <a href="https://www.even3.com.br/sdesign-perspectivas/" class="botao --primario">Inscreva-se Agora</a>
+            </div>
+          </div>
+
+          <img class="banner-bg bg__img-2" src="assets/img/banner-bg-2.svg" alt="">
+        </div>
+
+        <!-- 🟦 SLIDE 2 – Imagem simples -->
+        <div class="swiper-slide">
+          <img src="assets/img/banner-bg-1.svg" alt="Slide extra 1" width="100vw" />
+        </div>
+
+        <!-- 🟨 SLIDE 3 – Imagem simples -->
+        <div class="swiper-slide">
+          <img src="assets/img/banner-bg-2.svg" alt="Slide extra 2" width="100vw" />
+        </div>
+
       </div>
     </div>
-
-    <img class="banner-bg bg__img-2" src="assets/img/banner-bg-2.svg" alt="" srcset="">
   </main>
 
   <section id="sobre" data-aos="fade-up" data-aos-duration="1500">
