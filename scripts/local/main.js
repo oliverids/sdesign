@@ -25,7 +25,9 @@ menuButton.addEventListener("click", () => {
 const checaScrollHeader = () => {
 	let topoPagina = window.pageYOffset || document.documentElement.scrollTop;
 
-	topoPagina === 0 ? header.classList.remove('--scroll-down') : header.classList.add('--scroll-down');
+	topoPagina === 0 ?
+		header.classList.remove('--scroll-down') :
+		header.classList.add('--scroll-down');
 }
 
 window.addEventListener('scroll', () => checaScrollHeader());

@@ -215,10 +215,10 @@
       <div class="programacao">
         <nav class="programacao-nav">
           <ul>
-            <li><button data-nav="dia-0" class="--ativo">QUA - 04/12</button></li>
-            <li><button data-nav="dia-1">QUI - 05/12</button></li>
-            <li><button data-nav="dia-2">SEX - 06/12</button></li>
-            <li><button data-nav="dia-3">SAB - 07/12</button></li>
+            <li><button data-nav="dia-0" class="--ativo">QUA - 05/12</button></li>
+            <li><button data-nav="dia-1">QUI - 06/12</button></li>
+            <li><button data-nav="dia-2">SEX - 07/12</button></li>
+            <li><button data-nav="dia-3">SAB - 08/12</button></li>
           </ul>
         </nav>
 

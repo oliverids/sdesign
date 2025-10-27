@@ -5,9 +5,9 @@ global $palestra_tag;
 global $palestra_descricao;
 $palestra_cor;
 
-if ($palestra_tag == 'Oficina') {
+if ($palestra_tag == 'Sala Criativa') {
   $palestra_cor = '--roxo';
-} else if ($palestra_tag == 'Mesa Redonda') {
+} else if ($palestra_tag == 'Lab Maker' || $palestra_tag == 'Auditório Sebrae') {
   $palestra_cor = '--rosa';
 } else {
   $palestra_cor = '--amarelo';
