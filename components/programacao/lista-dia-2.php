@@ -1,79 +1,66 @@
 <li class="programacao-item">
   <div class="programacao-hora">
+    <span>9h às 10h</span>
+  </div>
+
+  <?php
+  $palestrante = 'Thiago Leon';
+  $palestra_titulo = 'Rebranding da Printi';
+  $palestra_tag = 'Auditório';
+  $palestra_descricao = 'A palestra apresenta o processo de rebranding da Printi, uma das principais empresas de impressão do país, destacando as etapas de pesquisa, estratégia e design que guiaram a transformação da marca. O público poderá conhecer os desafios de atualizar a identidade visual e o posicionamento da Printi diante de um mercado em constante mudança — equilibrando inovação, tecnologia e proximidade com a comunidade criativa.';
+  include('components/programacao-conteudo.php')
+  ?>
+</li>
+
+<li class="programacao-item">
+  <div class="programacao-hora">
     <span>09h às 12h</span>
   </div>
 
   <div class="conteudo-linha">
     <?php
-    $palestrante = 'Jo Name (Docente UFES)';
-    $palestra_titulo = 'Oficina';
-    $palestra_tag = 'Oficina';
-    $palestra_descricao = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempo.';
+    $palestrante = 'Locomotipo';
+    $palestra_titulo = 'Do Briefing ao Projeto';
+    $palestra_tag = 'Sala Criativa';
+    $palestra_descricao = 'A proposta é explorar, em grupo, todo o processo criativo, da interpretação do briefing à construção visual da ideia, passando por etapas como brainstorming, composição, estilo e narrativa visual.
+Mais do que uma oficina técnica, é um exercício de cocriação e troca, onde diferentes olhares se unem para dar vida a uma única peça ilustrada, mostrando na prática como as conexões fortalecem o processo criativo.';
     include('components/programacao-conteudo.php')
     ?>
 
     <?php
-    $palestrante = 'Douglas Negrisolli';
-    $palestra_titulo = 'Intermeios do Design,  consumo e indústria brasileira';
-    $palestra_tag = 'Palestra';
-    $palestra_descricao = 'Descubra como é atuar como designer em um banco digital nacional! Conheça os desafios e aprendizados de trabalhar em um time remoto, além de dicas práticas para se destacar no mercado fora do ES. Inspire-se para expandir sua carreira e explorar novas oportunidades!';
+    $palestrante = 'Guilherme Toledo';
+    $palestra_titulo = 'Design com brilho no olhar: Design Thinking vs Design';
+    $palestra_tag = 'Auditório SEBRAE';
+    $palestra_descricao = 'Explore ferramentas de  design centrado no humano para criar projetos a partir da abundância e do encantamento, na prática. Descubra como o design social pode ajudar a criar soluções sustentáveis e inovadoras, que geram valor para pessoas e comunidades no mundo real.';
     include('components/programacao-conteudo.php')
     ?>
   </div>
-</li>
-
-<li class="programacao-item">
-  <div class="programacao-hora">
-    <span>9h às 10h</span>
-  </div>
-  <?php
-  $palestrante = 'Ana Clara Balarini (Willbank)';
-  $palestra_titulo = 'Design fora do ES: Minha experiência como Designer na Willbank';
-  $palestra_tag = 'Palestra';
-  $palestra_descricao = 'Descubra como é atuar como designer em um banco digital nacional! Conheça os desafios e aprendizados de trabalhar em um time remoto, além de dicas práticas para se destacar no mercado fora do ES. Inspire-se para expandir sua carreira e explorar novas oportunidades!';
-  include('components/programacao-conteudo.php')
-  ?>
-
 </li>
 
 <li class="programacao-item">
   <div class="programacao-hora">
     <span>10h30 às 12h</span>
   </div>
-  <?php
-  $palestrante = 'DNA';
-  $palestra_titulo = 'Processos criativos em animação – Como produzir um curta animado (em 17 dias ou menos)';
-  $palestra_tag = 'Palestra';
-  $palestra_descricao = 'Explore o processo de criar uma animação 2D digital do início ao fim! Conheça as etapas de desenvolvimento, pré-produção e finalização de um curta produzido em apenas 17 dias. Inspire-se com insights, técnicas e uma exibição exclusiva para os participantes!';
-  include('components/programacao-conteudo.php')
-  ?>
+  <div class="conteudo-linha">
+    <?php
+    $palestrante = 'Cris Ibarra e Zoy Anastassakis';
+    $palestra_titulo = 'Roda de Conversa: Design e Antropologia';
+    $palestra_tag = 'Lab Maker';
+    $palestra_descricao = 'Um espaço de diálogo sobre as interseções entre o design e a antropologia, apresentando abordagens de pesquisa e práticas que aproximam o fazer projetual do olhar humano, social e cultural, ampliando as formas de pensar e agir no design.';
+    include('components/programacao-conteudo.php')
+    ?>
+
+    <?php
+    $palestrante = 'A definir';
+    $palestra_titulo = 'Roda de Conversa: Transição de estudante para profissional';
+    $palestra_tag = 'Auditório';
+    $palestra_descricao = 'Nesta palestra, os convidados compartilham sua trajetória entre a universidade e o mercado, refletindo sobre os desafios, descobertas e aprendizados que marcam o início da carreira no design. A conversa aborda temas como o desenvolvimento de portfólio, a adaptação ao ritmo profissional, o valor da experiência acadêmica e a importância das redes de colaboração.';
+    include('components/programacao-conteudo.php')
+    ?>
+  </div>
 </li>
 
 <hr>
-
-<li class="programacao-item">
-  <div class="programacao-hora">
-    <span>13h30 às 16h30</span>
-  </div>
-
-  <div class="conteudo-linha">
-    <?php
-    $palestrante = 'Carol Cuquetto';
-    $palestra_titulo = 'Criação Esquisita';
-    $palestra_tag = 'Oficina';
-    $palestra_descricao = 'Explore o inesperado na arte do desenho colaborativo! Na Oficina de Criação Esquisita, você e outros participantes criarão desenhos coletivos de forma livre e sem ver o trabalho do outro, resultando em imagens surpreendentes e instigantes. Descubra novos processos criativos e compartilhe suas reflexões.';
-    include('components/programacao-conteudo.php')
-    ?>
-
-    <?php
-    $palestrante = 'Felipe (Ave Design)';
-    $palestra_titulo = 'Gestão financeira para negócios criativos';
-    $palestra_tag = 'Palestra';
-    $palestra_descricao = 'Aprenda a precificar seus projetos criativos e evite prejuízos! A oficina de Gestão Financeira para Negócios Criativos ensina a organizar receitas, definir custos, lucros e metas de faturamento. Transforme sua gestão financeira e conquiste mais sucesso!';
-    include('components/programacao-conteudo.php')
-    ?>
-  </div>
-</li>
 
 <li class="programacao-item">
   <div class="programacao-hora">
@@ -82,10 +69,21 @@
 
   <div class="conteudo-linha">
     <?php
-    $palestrante = 'Paula Gobetti';
-    $palestra_titulo = 'O olhar-sentir-agir esterilizado';
-    $palestra_tag = 'Palestra';
-    $palestra_descricao = 'Desperte para a relação com os ambientes que habitamos! A palestra explora as colonialidades presentes nos espaços e como elas afetam nossos sentidos e ações. Reflita sobre sua responsabilidade relacional e como transformar ambientes hostis em acolhedores.';
+    $palestrante = 'Gustavo Pelissari';
+    $palestra_titulo = 'Ilustração Comercial: Trabalhando com briefing';
+    $palestra_tag = 'Sala Criativa';
+    $palestra_descricao = 'Nessa oficina, o objetivo é mostrar por meio de trabalhos reais como é o processo de criação de um ilustrador, desde a construção dos rascunhos até a imagem finalizada. 
+Além disso, serão expostas informações sobre o dia a dia de estudo e evolução para atingir grandes marcas do mercado de ilustração.';
+    include('components/programacao-conteudo.php')
+    ?>
+
+    <?php
+    $palestrante = 'Charo Lyn';
+    $palestra_titulo = 'Produção de conteúdo para redes sociais para autopromoção';
+    $palestra_tag = 'Auditório';
+    $palestra_descricao = 'Uma conversa prática sobre como usar as redes sociais como vitrine do seu trabalho. A atividade aborda os desafios de conquistar visibilidade no meio digital e apresenta estratégias realistas para unir criatividade, consistência e autenticidade na produção de conteúdo.
+
+A proposta é ajudar estudantes e profissionais a fortalecer sua presença online, construir uma marca pessoal sólida e transformar suas criações em oportunidades reais de crescimento e conexão.';
     include('components/programacao-conteudo.php')
     ?>
   </div>
@@ -99,9 +97,51 @@
   <div class="conteudo-linha">
     <?php
     $palestrante = 'Comboio';
-    $palestra_titulo = 'Mesa Redonda';
-    $palestra_tag = 'Mesa Redonda';
-    $palestra_descricao = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempo.';
+    $palestra_titulo = 'Como Produzir um Curta em Animação';
+    $palestra_tag = 'Sala Criativa';
+    $palestra_descricao = 'Passo a passo de curtas de animação explicado pelo maior estúdio de animação Comboio, usando o último trabalho deles como base.';
+    include('components/programacao-conteudo.php')
+    ?>
+
+    <?php
+    $palestrante = 'Bruno Ortega';
+    $palestra_titulo = 'A Morte do Livro e o design como a última salvação';
+    $palestra_tag = 'Auditório';
+    $palestra_descricao = 'Uma palestra sobre o papel do design editorial na sobrevivência (e reinvenção) do livro. Bruno Ortega compartilha seu processo criativo, projetos reais e provocações visuais — com leveza, crítica e ironia. Porque se o livro está morrendo, que morra bonito. Ou melhor: que viva reinventado pelo design.';
+    include('components/programacao-conteudo.php')
+    ?>
+  </div>
+</li>
+
+<li class="programacao-item">
+  <div class="programacao-hora">
+    <span>17h às 18h30</span>
+  </div>
+
+  <div class="conteudo-linha">
+    <?php
+    $palestrante = 'Werllen Castro';
+    $palestra_titulo = 'Especificações gráficas para publicações impressas';
+    $palestra_tag = 'Lab Maker';
+    $palestra_descricao = 'essa oficina iremos pensar tudo que envolve a parte gráfica de uma publicação impressa: papéis, impressões, acabamentos, entre outros. A partir de um material finalizado, veremos como todas essas questões impactam no resultado do livro ou outras publicações impressas.';
+    include('components/programacao-conteudo.php')
+    ?>
+
+    <?php
+    $palestrante = 'Julio Cesar';
+    $palestra_titulo = 'Introdução ao desenvolvimento de produtos digitais e pesquisa em experiência do usuário';
+    $palestra_tag = 'Sala Criativa';
+    $palestra_descricao = 'Com sete anos de experiência e atuação no Grupo OLX Brasil, Júlio compartilha sua vivência no desenvolvimento de soluções eficazes e intuitivas, explorando o Double Diamond Design — metodologia que orienta desde a identificação de problemas até a criação de soluções inovadoras.
+Na palestra, ele apresenta um panorama completo sobre o processo de pesquisa em UX, propostas de valor e estratégias de design orientadas ao usuário, oferecendo insights essenciais para quem busca expandir suas possibilidades no mercado digital e atuar de forma mais consciente e criativa no universo dos produtos tecnológicos';
+    include('components/programacao-conteudo.php')
+    ?>
+
+    <?php
+    $palestrante = 'ECOS Jr';
+    $palestra_titulo = 'Posicionamento de marca: Como chamar a atenção do seu público.';
+    $palestra_tag = 'Lab Maker';
+    $palestra_descricao = 'Com sete anos de experiência e atuação no Grupo OLX Brasil, Júlio compartilha sua vivência no desenvolvimento de soluções eficazes e intuitivas, explorando o Double Diamond Design — metodologia que orienta desde a identificação de problemas até a criação de soluções inovadoras.
+Na palestra, ele apresenta um panorama completo sobre o processo de pesquisa em UX, propostas de valor e estratégias de design orientadas ao usuário, oferecendo insights essenciais para quem busca expandir suas possibilidades no mercado digital e atuar de forma mais consciente e criativa no universo dos produtos tecnológicos';
     include('components/programacao-conteudo.php')
     ?>
   </div>

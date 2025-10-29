@@ -22,7 +22,7 @@ Por meio de dinâmicas em grupo, os participantes serão convidados a repensar p
     <?php
     $palestrante = 'Will Nunes';
     $palestra_titulo = 'Design em Movimento: a mutiiplicidade como força criativa';
-    $palestra_tag = 'Auditório Hub';
+    $palestra_tag = 'Auditório';
     $palestra_descricao = 'Como é possível criar com a mesma intensidade para uma identidade visual, uma exposição, um livro e até a abertura de um programa de TV? <br /> <br/>
 Na palestra Will Nunes conta como construiu uma trajetória múltipla no design, transitando entre identidade visual, editorial, ilustração e direção de arte. A partir de sua história e repertório cultural, ele compartilha como a escuta, a curiosidade e a coerência criativa ajudam a transformar cada projeto em algo único — e como a potência do design pode estar justamente no “entre” formatos, linguagens e contextos.';
     include('components/programacao-conteudo.php')
@@ -70,7 +70,7 @@ Algoritmos e inteligência artificial estão ajudando a levar a personalização
     <?php
     $palestrante = 'Felipe Nader';
     $palestra_titulo = 'Precificação e Prospecção – Quanto vale seu trabalho e como encontrar quem pague por eles?';
-    $palestra_tag = 'Auditório Hub';
+    $palestra_tag = 'Auditório';
     $palestra_descricao = 'A Oficina apresentará metodologias práticas de como precificar projetos de design e prospectar clientes para manter o fluxo de serviço estável e a saúde financeira do estúdio em dia.';
     include('components/programacao-conteudo.php')
     ?>
@@ -120,25 +120,22 @@ Algoritmos e inteligência artificial estão ajudando a levar a personalização
   <div class="programacao-hora">
     <span>17h às 18h30</span>
   </div>
-  <?php
-  $palestrante = 'Lucas Sales';
-  $palestra_titulo = 'Projetando o autoral — em busca do seu estilo de ilustração';
-  $palestra_tag = 'Sala Criativa';
-  $palestra_descricao = 'Oficina voltada para quem deseja desenvolver um estilo próprio, entrar no mercado ou simplesmente exercitar a criatividade. A partir de ferramentas do design, exploramos como aplicar no trabalho autoral o mesmo cuidado de um projeto comissionado, refinando o olhar, consolidando referências e fortalecendo um estilo que também pode atrair clientes.';
-  include('components/programacao-conteudo.php')
-  ?>
-</li>
+  <div class="conteudo-linha">
+    <?php
+    $palestrante = 'Lucas Sales';
+    $palestra_titulo = 'Projetando o autoral — em busca do seu estilo de ilustração';
+    $palestra_tag = 'Sala Criativa';
+    $palestra_descricao = 'Oficina voltada para quem deseja desenvolver um estilo próprio, entrar no mercado ou simplesmente exercitar a criatividade. A partir de ferramentas do design, exploramos como aplicar no trabalho autoral o mesmo cuidado de um projeto comissionado, refinando o olhar, consolidando referências e fortalecendo um estilo que também pode atrair clientes.';
+    include('components/programacao-conteudo.php')
+    ?>
 
-<li class="programacao-item">
-  <div class="programacao-hora">
-    <span>17h às 18h30</span>
-  </div>
-  <?php
-  $palestrante = 'A divulgar...';
-  $palestra_titulo = 'RC mercado de trabalho';
-  $palestra_tag = 'Auditório';
-  $palestra_descricao = 'Um bate-papo aberto e descontraído sobre os desafios e oportunidades do mercado de trabalho nas áreas de Design, Comunicação e afins. A atividade busca aproximar estudantes e profissionais, compartilhando experiências reais sobre inserção profissional, portfólio, precificação, freelas, estágios e carreira. <br /> <br />
+    <?php
+    $palestrante = 'A divulgar...';
+    $palestra_titulo = 'RC mercado de trabalho';
+    $palestra_tag = 'Auditório';
+    $palestra_descricao = 'Um bate-papo aberto e descontraído sobre os desafios e oportunidades do mercado de trabalho nas áreas de Design, Comunicação e afins. A atividade busca aproximar estudantes e profissionais, compartilhando experiências reais sobre inserção profissional, portfólio, precificação, freelas, estágios e carreira. <br /> <br />
   Mais do que tirar dúvidas, a ideia é trocar vivências e construir conexões que inspirem caminhos possíveis dentro (e fora) do universo criativo.';
-  include('components/programacao-conteudo.php')
-  ?>
+    include('components/programacao-conteudo.php')
+    ?>
+  </div>
 </li>
