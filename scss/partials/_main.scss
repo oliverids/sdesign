@@ -2,8 +2,6 @@
 
 .main {
   background-color: var(--sdesign-preto);
-  min-height: to-rem(472);
-  height: to-rem(472);
   margin-top: to-rem(-72);
   padding-top: to-rem(72);
   display: flex;
@@ -13,39 +11,53 @@
   position: relative;
   overflow: hidden;
   row-gap: to-rem(10);
-  // background-image: url("../assets/img/banner-bg-1.svg"), url("../assets/img/banner-bg-2.svg");
-  // background-size: 50%;
-  // background-repeat: no-repeat;
-  // background-position:
-  //   center -50%,
-  //   right -80%;
+  min-height: 450px;
+
+  .swiper-wrapper {
+    width: 100vw;
+    place-items: center;
+
+    .swiper-slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .banner {
+    &__img {
+      width: 100vw;
+      height: 100%;
+      object-fit: cover;
+      position: relative;
+    }
+
+    &__botao {
+      width: 328px;
+      height: 58px;
+      position: absolute;
+      color: #fff;
+      background-color: #e64a22;
+      border-radius: 28px;
+      font-size: 36px;
+      bottom: 36px;
+      right: 10%;
+    }
+  }
 
   .banner-bg {
-    // position: absolute;
+    display: none;
 
     &.bg__img-1 {
-      // transform: scale(0.6);
-      margin: 0 auto;
       max-width: to-rem(90);
-      // top: to-rem(-270);
-      // width: 60vw;
-      // top: to-rem(54);
-      // right: 4%;
     }
 
     &.bg__img-2 {
-      // transform: scale(0.8);
       margin-left: auto;
       max-width: to-rem(146);
       position: relative;
       top: -12px;
       left: 20px;
-
-      // bottom: to-rem(-400);
-      // right: 0;
-      //   width: 48vw;
-      //   bottom: to-rem(-4);
-      //   right: 0;
     }
   }
 
@@ -108,18 +120,30 @@
   }
 
   @include media-min(medium) {
-    min-height: to-rem(972);
+    .banner {
+      &__img {
+        width: 100vw;
+        height: 100%;
+      }
+
+      &__botao {
+        width: 328px;
+        height: 58px;
+        font-size: 36px;
+        bottom: 36px;
+        right: 10%;
+      }
+    }
 
     .banner-bg {
+      display: block;
+
       &.bg__img-1 {
         max-width: to-rem(320);
       }
 
       &.bg__img-2 {
-        max-width: to-rem(350);
-        position: relative;
-        top: -84px;
-        left: 47px;
+        display: none;
       }
     }
 
@@ -154,7 +178,20 @@
   }
 
   @include media-min(desktop) {
-    min-height: to-rem(920);
+    .banner {
+      &__img {
+        width: 100vw;
+        height: 100%;
+      }
+
+      &__botao {
+        width: 328px;
+        height: 58px;
+        font-size: 36px;
+        bottom: 36px;
+        right: 10%;
+      }
+    }
 
     .banner-bg {
       &.bg__img-1 {
@@ -171,13 +208,33 @@
   }
 
   @include media-min(desktop-large) {
-    min-height: to-rem(686);
     margin-top: to-rem(80);
     padding: 0;
     justify-content: center;
     background-image: url("../assets/img/banner-bg-3.svg");
     background-repeat: no-repeat;
     background-position: 155% center;
+
+    .banner {
+      &__img {
+        width: 100vw;
+        height: 100%;
+        object-fit: cover;
+        position: relative;
+      }
+
+      &__botao {
+        width: 328px;
+        height: 58px;
+        position: absolute;
+        color: #fff;
+        background-color: #e64a22;
+        border-radius: 28px;
+        font-size: 36px;
+        bottom: 36px;
+        right: 10%;
+      }
+    }
 
     .banner-bg {
       display: none;

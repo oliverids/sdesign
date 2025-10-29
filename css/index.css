@@ -352,8 +352,6 @@ header.--ativo .header-nav.mobile {
 
 .main {
   background-color: var(--sdesign-preto);
-  min-height: 29.5rem;
-  height: 29.5rem;
   margin-top: -4.5rem;
   padding-top: 4.5rem;
   display: flex;
@@ -363,9 +361,38 @@ header.--ativo .header-nav.mobile {
   position: relative;
   overflow: hidden;
   row-gap: 0.625rem;
+  min-height: 450px;
+}
+.main .swiper-wrapper {
+  width: 100vw;
+  place-items: center;
+}
+.main .swiper-wrapper .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .banner__img {
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+}
+.main .banner__botao {
+  width: 328px;
+  height: 58px;
+  position: absolute;
+  color: #fff;
+  background-color: #e64a22;
+  border-radius: 28px;
+  font-size: 36px;
+  bottom: 36px;
+  right: 10%;
+}
+.main .banner-bg {
+  display: none;
 }
 .main .banner-bg.bg__img-1 {
-  margin: 0 auto;
   max-width: 5.625rem;
 }
 .main .banner-bg.bg__img-2 {
@@ -425,17 +452,25 @@ header.--ativo .header-nav.mobile {
   margin-top: 1.375rem;
 }
 @media only screen and (min-width: 48rem) {
-  .main {
-    min-height: 60.75rem;
+  .main .banner__img {
+    width: 100vw;
+    height: 100%;
+  }
+  .main .banner__botao {
+    width: 328px;
+    height: 58px;
+    font-size: 36px;
+    bottom: 36px;
+    right: 10%;
+  }
+  .main .banner-bg {
+    display: block;
   }
   .main .banner-bg.bg__img-1 {
     max-width: 20rem;
   }
   .main .banner-bg.bg__img-2 {
-    max-width: 21.875rem;
-    position: relative;
-    top: -84px;
-    left: 47px;
+    display: none;
   }
   .main .main-container .evento-info img {
     max-width: 5.375rem;
@@ -458,8 +493,16 @@ header.--ativo .header-nav.mobile {
   }
 }
 @media only screen and (min-width: 80rem) {
-  .main {
-    min-height: 57.5rem;
+  .main .banner__img {
+    width: 100vw;
+    height: 100%;
+  }
+  .main .banner__botao {
+    width: 328px;
+    height: 58px;
+    font-size: 36px;
+    bottom: 36px;
+    right: 10%;
   }
   .main .banner-bg.bg__img-1 {
     max-width: 17.5rem;
@@ -473,13 +516,29 @@ header.--ativo .header-nav.mobile {
 }
 @media only screen and (min-width: 85.375rem) {
   .main {
-    min-height: 42.875rem;
     margin-top: 5rem;
     padding: 0;
     justify-content: center;
     background-image: url("../assets/img/banner-bg-3.svg");
     background-repeat: no-repeat;
     background-position: 155% center;
+  }
+  .main .banner__img {
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+  }
+  .main .banner__botao {
+    width: 328px;
+    height: 58px;
+    position: absolute;
+    color: #fff;
+    background-color: #e64a22;
+    border-radius: 28px;
+    font-size: 36px;
+    bottom: 36px;
+    right: 10%;
   }
   .main .banner-bg {
     display: none;

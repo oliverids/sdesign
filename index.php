@@ -67,13 +67,10 @@
         </div>
 
         <!-- 🟦 SLIDE 2 – Imagem simples -->
-        <div class="swiper-slide">
-          <img src="assets/img/banner-bg-1.svg" alt="Slide extra 1" width="100vw" />
-        </div>
+        <div class="swiper-slide banner">
+          <img class="banner__img" src="assets/img/trilha-banner.png" alt="Banner trilha" />
 
-        <!-- 🟨 SLIDE 3 – Imagem simples -->
-        <div class="swiper-slide">
-          <img src="assets/img/banner-bg-2.svg" alt="Slide extra 2" width="100vw" />
+          <button class="banner__botao">Participe agora!</button>
         </div>
 
       </div>
@@ -116,9 +113,9 @@
         <p>A SDesign 2025 é sobre isso: <strong>Conexões.</strong></p>
 
         <p>
-          Queremos destacar como a profissão ganha força quando abrimos espaço para diferentes trajetórias, aproximando o 
-          <strong>tradicional do novo,</strong> o 
-          <strong>formal do popular,</strong> o 
+          Queremos destacar como a profissão ganha força quando abrimos espaço para diferentes trajetórias, aproximando o
+          <strong>tradicional do novo,</strong> o
+          <strong>formal do popular,</strong> o
           <strong>acadêmico do cotidiano.</strong>
         </p>
 
@@ -368,7 +365,7 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
-  AOS.init();
+    AOS.init();
   </script>
   <script src="scripts/main.min.js"></script>
 </body>
