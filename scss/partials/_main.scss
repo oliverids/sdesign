@@ -15,7 +15,16 @@
 
   .swiper-wrapper {
     width: 100vw;
+    height: 60vh;
     place-items: center;
+
+    @media (min-width: 768px) {
+      height: 65vh;
+    }
+
+    @media (min-width: 844px) {
+      height: 50vh;
+    }
 
     .swiper-slide {
       display: flex;
@@ -27,21 +36,48 @@
   .banner {
     &__img {
       width: 100vw;
-      height: 100%;
+      height: 60vh;
       object-fit: cover;
       position: relative;
+      background-image: url("/assets/img/trilha-banner_cllr.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
     }
 
     &__botao {
-      width: 328px;
-      height: 58px;
+      width: 210px;
+      height: 42px;
       position: absolute;
       color: #fff;
       background-color: #e64a22;
       border-radius: 28px;
-      font-size: 36px;
-      bottom: 36px;
-      right: 10%;
+      font-size: 24px;
+      top: 22px;
+      left: 28px;
+    }
+
+    @media (min-width: 768px) {
+      &__img {
+        background-image: url("/assets/img/trilha-banner_tablet.png");
+        height: 65vh;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      &__img {
+        background-image: url("/assets/img/trilha-banner.png");
+        height: 50vh;
+      }
+
+      &__botao {
+        top: auto;
+        left: auto;
+        bottom: 36px;
+        right: 10%;
+        width: 328px;
+        height: 58px;
+      }
     }
   }
 
@@ -120,21 +156,6 @@
   }
 
   @include media-min(medium) {
-    .banner {
-      &__img {
-        width: 100vw;
-        height: 100%;
-      }
-
-      &__botao {
-        width: 328px;
-        height: 58px;
-        font-size: 36px;
-        bottom: 36px;
-        right: 10%;
-      }
-    }
-
     .banner-bg {
       display: block;
 
@@ -178,21 +199,6 @@
   }
 
   @include media-min(desktop) {
-    .banner {
-      &__img {
-        width: 100vw;
-        height: 100%;
-      }
-
-      &__botao {
-        width: 328px;
-        height: 58px;
-        font-size: 36px;
-        bottom: 36px;
-        right: 10%;
-      }
-    }
-
     .banner-bg {
       &.bg__img-1 {
         max-width: to-rem(280);
@@ -214,27 +220,6 @@
     background-image: url("../assets/img/banner-bg-3.svg");
     background-repeat: no-repeat;
     background-position: 155% center;
-
-    .banner {
-      &__img {
-        width: 100vw;
-        height: 100%;
-        object-fit: cover;
-        position: relative;
-      }
-
-      &__botao {
-        width: 328px;
-        height: 58px;
-        position: absolute;
-        color: #fff;
-        background-color: #e64a22;
-        border-radius: 28px;
-        font-size: 36px;
-        bottom: 36px;
-        right: 10%;
-      }
-    }
 
     .banner-bg {
       display: none;

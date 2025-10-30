@@ -68,7 +68,7 @@
 
         <!-- 🟦 SLIDE 2 – Imagem simples -->
         <div class="swiper-slide banner">
-          <img class="banner__img" src="assets/img/trilha-banner.png" alt="Banner trilha" />
+          <div class="banner__img" alt="Banner trilha"></div>
 
           <button class="banner__botao">Participe agora!</button>
         </div>

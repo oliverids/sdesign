@@ -365,7 +365,18 @@ header.--ativo .header-nav.mobile {
 }
 .main .swiper-wrapper {
   width: 100vw;
+  height: 60vh;
   place-items: center;
+}
+@media (min-width: 768px) {
+  .main .swiper-wrapper {
+    height: 65vh;
+  }
+}
+@media (min-width: 844px) {
+  .main .swiper-wrapper {
+    height: 50vh;
+  }
 }
 .main .swiper-wrapper .swiper-slide {
   display: flex;
@@ -374,20 +385,44 @@ header.--ativo .header-nav.mobile {
 }
 .main .banner__img {
   width: 100vw;
-  height: 100%;
+  height: 60vh;
   object-fit: cover;
   position: relative;
+  background-image: url("/assets/img/trilha-banner_cllr.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .main .banner__botao {
-  width: 328px;
-  height: 58px;
+  width: 210px;
+  height: 42px;
   position: absolute;
   color: #fff;
   background-color: #e64a22;
   border-radius: 28px;
-  font-size: 36px;
-  bottom: 36px;
-  right: 10%;
+  font-size: 24px;
+  top: 22px;
+  left: 28px;
+}
+@media (min-width: 768px) {
+  .main .banner__img {
+    background-image: url("/assets/img/trilha-banner_tablet.png");
+    height: 65vh;
+  }
+}
+@media (min-width: 1024px) {
+  .main .banner__img {
+    background-image: url("/assets/img/trilha-banner.png");
+    height: 50vh;
+  }
+  .main .banner__botao {
+    top: auto;
+    left: auto;
+    bottom: 36px;
+    right: 10%;
+    width: 328px;
+    height: 58px;
+  }
 }
 .main .banner-bg {
   display: none;
@@ -452,17 +487,6 @@ header.--ativo .header-nav.mobile {
   margin-top: 1.375rem;
 }
 @media only screen and (min-width: 48rem) {
-  .main .banner__img {
-    width: 100vw;
-    height: 100%;
-  }
-  .main .banner__botao {
-    width: 328px;
-    height: 58px;
-    font-size: 36px;
-    bottom: 36px;
-    right: 10%;
-  }
   .main .banner-bg {
     display: block;
   }
@@ -493,17 +517,6 @@ header.--ativo .header-nav.mobile {
   }
 }
 @media only screen and (min-width: 80rem) {
-  .main .banner__img {
-    width: 100vw;
-    height: 100%;
-  }
-  .main .banner__botao {
-    width: 328px;
-    height: 58px;
-    font-size: 36px;
-    bottom: 36px;
-    right: 10%;
-  }
   .main .banner-bg.bg__img-1 {
     max-width: 17.5rem;
   }
@@ -522,23 +535,6 @@ header.--ativo .header-nav.mobile {
     background-image: url("../assets/img/banner-bg-3.svg");
     background-repeat: no-repeat;
     background-position: 155% center;
-  }
-  .main .banner__img {
-    width: 100vw;
-    height: 100%;
-    object-fit: cover;
-    position: relative;
-  }
-  .main .banner__botao {
-    width: 328px;
-    height: 58px;
-    position: absolute;
-    color: #fff;
-    background-color: #e64a22;
-    border-radius: 28px;
-    font-size: 36px;
-    bottom: 36px;
-    right: 10%;
   }
   .main .banner-bg {
     display: none;
@@ -594,7 +590,7 @@ header.--ativo .header-nav.mobile {
 }
 @media only screen and (min-width: 48rem) {
   #sobre {
-    padding-top: 5rem;
+    padding-top: 4rem;
   }
   #sobre .sobre-info h2 {
     margin-bottom: 1rem;
@@ -662,7 +658,7 @@ header.--ativo .header-nav.mobile {
 }
 .multiplas-perspectivas .container .right {
   right: -18vw;
-  top: 12vh;
+  top: 15vh;
 }
 .multiplas-perspectivas .container .multiplas-container {
   max-width: 30.5rem;
