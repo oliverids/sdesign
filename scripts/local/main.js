@@ -110,3 +110,19 @@ programacaoBtns.forEach((button) => {
 		document.querySelector(`[data-content=${id}]`).classList.add("--ativo");
 	});
 });
+
+// DOWNLOAD: função no botão do banner ===================
+const mapaButtons = document.querySelectorAll('.banner__botao');
+mapaButtons.forEach((btn) => {
+	btn.addEventListener('click', (e) => {
+		console.log("Clicou")
+		const url = '/assets/trilha-quiz-pdf.pdf';
+
+		const a = document.createElement('a');
+		a.href = url;
+		a.download = 'trilha-quiz-pdf.pdf';
+		document.body.appendChild(a);
+		a.click();
+		a.remove();
+	});
+});
