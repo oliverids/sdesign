@@ -46,13 +46,13 @@
     }
 
     &__botao {
-      width: 210px;
-      height: 42px;
+      width: 165px;
+      height: 36px;
       position: absolute;
       color: #fff;
-      background-color: #e64a22;
+      background-color: var(--sdesign-laranja);
       border-radius: 28px;
-      font-size: 24px;
+      font-size: 12px;
       top: 22px;
       left: 28px;
     }
@@ -61,6 +61,16 @@
       &__img {
         background-image: url("/assets/img/trilha-banner_tablet.png");
         height: 65vh;
+      }
+
+      &__botao {
+        font-size: 18px;
+        top: auto;
+        left: auto;
+        bottom: 36px;
+        right: 10%;
+        width: 210px;
+        height: 42px;
       }
     }
 
@@ -75,6 +85,7 @@
         left: auto;
         bottom: 36px;
         right: 10%;
+        font-size: 24px;
         width: 328px;
         height: 58px;
       }

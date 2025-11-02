@@ -87,8 +87,7 @@ new Swiper(".depoimentos-slider", {
 });
 
 new Swiper(".main-slider", {
-	slidesPerView: "auto",
-	centeredSlides: true,
+	slidesPerView: 1,
 	loop: true,
 	autoplay: {
 		delay: 3200,

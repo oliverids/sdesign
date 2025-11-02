@@ -394,13 +394,13 @@ header.--ativo .header-nav.mobile {
   background-repeat: no-repeat;
 }
 .main .banner__botao {
-  width: 210px;
-  height: 42px;
+  width: 165px;
+  height: 36px;
   position: absolute;
   color: #fff;
-  background-color: #e64a22;
+  background-color: var(--sdesign-laranja);
   border-radius: 28px;
-  font-size: 24px;
+  font-size: 12px;
   top: 22px;
   left: 28px;
 }
@@ -408,6 +408,15 @@ header.--ativo .header-nav.mobile {
   .main .banner__img {
     background-image: url("/assets/img/trilha-banner_tablet.png");
     height: 65vh;
+  }
+  .main .banner__botao {
+    font-size: 18px;
+    top: auto;
+    left: auto;
+    bottom: 36px;
+    right: 10%;
+    width: 210px;
+    height: 42px;
   }
 }
 @media (min-width: 1024px) {
@@ -420,6 +429,7 @@ header.--ativo .header-nav.mobile {
     left: auto;
     bottom: 36px;
     right: 10%;
+    font-size: 24px;
     width: 328px;
     height: 58px;
   }

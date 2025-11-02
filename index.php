@@ -73,6 +73,44 @@
           <button class="banner__botao">Participe agora!</button>
         </div>
 
+        <!-- 🟩 SLIDE 1 – Seção completa -->
+        <div class="swiper-slide">
+          <img class="banner-bg bg__img-1" src="assets/img/banner-bg-1.svg" alt="">
+
+          <div class="container main-container">
+            <div class="evento-info">
+              <img src="assets/img/main__logo.png" alt="Logo do SDesign 2024.">
+              <span>05 a 08 de Novembro de 2025 <br /> Vitória - ES</span>
+            </div>
+
+            <h1 class="main-titulo">
+              Explore novos caminhos
+              <span class="main-titulo__subtitulo">
+                no Design e fortaleça suas
+                <span class="main-titulo__destaque">conexões</span>
+              </span>
+            </h1>
+
+            <p class="main-paragrafo">
+              Garanta seu ingresso na edição histórica da Semana de Design UFES
+            </p>
+
+            <div class="main-ctas">
+              <a href="#programacao" class="botao --secundario">Ver Programação</a>
+              <a href="https://www.even3.com.br/sdesign-perspectivas/" class="botao --primario">Inscreva-se Agora</a>
+            </div>
+          </div>
+
+          <img class="banner-bg bg__img-2" src="assets/img/banner-bg-2.svg" alt="">
+        </div>
+
+        <!-- 🟦 SLIDE 2 – Imagem simples -->
+        <div class="swiper-slide banner">
+          <div class="banner__img" alt="Banner trilha"></div>
+
+          <button class="banner__botao">Participe agora!</button>
+        </div>
+
       </div>
     </div>
   </main>
