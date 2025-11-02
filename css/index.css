@@ -905,6 +905,7 @@ header.--ativo .header-nav.mobile {
 #convidados .swiper .convidados-lista {
   width: 100%;
   min-width: fit-content;
+  gap: 8px;
 }
 #convidados .swiper .convidados-lista .convidado-item {
   width: 100%;
@@ -958,6 +959,9 @@ header.--ativo .header-nav.mobile {
   #convidados {
     padding: 5rem 0 7.5rem;
   }
+  #convidados .convidados-lista {
+    gap: 16px;
+  }
   #convidados .swiper {
     margin-top: 1.75rem;
   }
@@ -988,6 +992,9 @@ header.--ativo .header-nav.mobile {
   }
 }
 @media only screen and (min-width: 85.375rem) {
+  #convidados .convidados-lista {
+    gap: 32px;
+  }
   #convidados .convidados-wrapper {
     display: flex;
     align-items: center;

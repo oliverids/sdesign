@@ -1,238 +1,207 @@
 <div class="swiper convidados-slider">
   <ul class="swiper-wrapper convidados-lista">
     <?php
-    $foto_src = 'felipe_nader';
-    $nome = 'Felipe Nader';
-    $profissao = 'Ave Design';
-    $website = 'https://avedesign.com.br/';
-    $behance = 'https://www.behance.net/avedesignbr';
-    $linkedin = 'https://www.linkedin.com/company/avedesign';
-    $instagram = 'https://www.instagram.com/avedesign.br/';
-    include('convidado-item.php')
-    ?>
-
-    <?php
-    $foto_src = 'amanda_lobos';
+    $foto_src = 'amanda-lobos';
     $nome = 'Amanda Lobos';
     $profissao = 'Designer e Ilustradora';
-    $website = 'https://www.maisdeumlobo.com/';
-    $behance = 'https://www.behance.net/maisdeumlobo';
-    $linkedin = 'https://www.linkedin.com/in/amandalobos/';
-    $instagram = 'https://www.instagram.com/maisdeumlobo/';
     include('convidado-item.php')
     ?>
 
     <?php
-    $foto_src = 'ananda_miranda';
-    $nome = 'Ananda Miranda';
-    $profissao = 'Cinografia';
-    $website = '';
-    $behance = '';
-    $linkedin = 'https://www.linkedin.com/in/ananda-miranda';
-    $instagram = 'https://www.instagram.com/edacjr.ufes';
+    $foto_src = 'antonio';
+    $nome = 'Antonio Nogueira';
+    $profissao = 'Designer, diretor criativo e Sócio da Pentagram';
     include('convidado-item.php')
     ?>
 
     <?php
-    $foto_src = 'douglas_negrisolli';
-    $nome = 'Douglas Negrisolli';
-    $profissao = 'Designer Gráfico';
-    $website = '';
-    $behance = '';
-    $linkedin = 'https://www.linkedin.com/in/douglasnegrisolli/';
-    $instagram = 'https://www.instagram.com/dnegrisolli/';
+    $foto_src = 'bruno-ortega';
+    $nome = 'Bruno Ortega';
+    $profissao = 'Designer e Criador da "Agenda Design"';
     include('convidado-item.php')
     ?>
 
     <?php
-    $foto_src = 'dna';
-    $nome = 'DNA';
-    $profissao = 'Grupo de Animação';
-    $website = '';
-    $behance = '';
-    $linkedin = '';
-    $instagram = 'https://www.instagram.com/dnanimation/';
-    include('convidado-item.php')
-    ?>
-
-    <?php
-    $foto_src = 'andre_rios';
-    $nome = 'André Rios';
-    $profissao = 'Artista de Efeitos Visuais';
-    $website = 'https://www.imdb.com/name/nm4757374/';
-    $behance = '';
-    $linkedin = '';
-    $instagram = 'https://www.instagram.com/andreriosvfx/';
-    include('convidado-item.php')
-    ?>
-
-    <?php
-    $foto_src = 'felipe_kaizer';
-    $nome = 'Felipe Kaizer';
-    $profissao = 'Professor Doutor do Departamento de História e Estética do Projeto (FAU-USP)';
-    $website = 'http://felipekaizer.com';
-    $behance = '';
-    $linkedin = 'https://www.linkedin.com/in/felipe-kaizer-b9b00689/';
-    $instagram = 'https://www.instagram.com/kaizer.felipe/';
-    include('convidado-item.php')
-    ?>
-
-    <?php
-    $foto_src = 'paula_gobetti';
-    $nome = 'Paula Gobetti';
-    $profissao = 'Designer, Professora e Pesquisadora';
-    $website = '';
-    $behance = 'https://www.behance.net/kabukistudio';
-    $linkedin = '';
-    $instagram = 'https://www.instagram.com/paulagobetti/';
-    include('convidado-item.php')
-    ?>
-
-    <?php
-    $foto_src = 'maria_clara_ferreira';
-    $nome = 'Maria Clara Ferreira';
-    $profissao = 'Designer, produtora e multiartista';
-    $website = 'https://lacunadesign.com.br';
-    $behance = 'https://www.behance.net/mariclerofb17d';
-    $linkedin = 'https://www.linkedin.com/in/mariaclara-ferreira/';
-    $instagram = 'https://www.instagram.com/mariaclara_of/';
-    include('convidado-item.php')
-    ?>
-
-    <?php
-    $foto_src = 'katia_miller';
-    $nome = 'Katia Miller';
-    $profissao = 'Professora da Ufes e Coorenadora da Materio.Lab';
-    $website = 'https://www.instagram.com/materio.lab_ufes/';
-    $behance = '';
-    $linkedin = '';
-    $instagram = 'https://www.instagram.com/katiabroeto/';
+    $foto_src = 'charo-lyn';
+    $nome = 'Charo Lyn';
+    $profissao = 'Illustradora e criadora de contéudo';
     include('convidado-item.php')
     ?>
 
     <?php
     $foto_src = 'comboio';
-    $nome = 'Comboio';
-    $profissao = 'Estúdio de Animação e Ilustração';
-    $website = 'https://www.maisdeumlobo.com/';
-    $behance = 'https://www.behance.net/comboioart';
-    $linkedin = 'https://www.linkedin.com/company/comboio-art/';
-    $instagram = 'https://www.instagram.com/comboio.art/';
-    include('convidado-item.php')
-    ?>
-
-    <!--  -->
-    <?php
-    $foto_src = 'edac';
-    $nome = 'Edac';
-    $profissao = 'Empresa Junior';
-    $website = '';
-    $behance = '';
-    $linkedin = '';
-    $instagram = 'https://www.instagram.com/edacjr.ufes';
+    $nome = 'Comboio ';
+    $profissao = 'Studio de Animação e Ilustração';
     include('convidado-item.php')
     ?>
 
     <?php
-    $foto_src = 'leonardo_zamprogno';
-    $nome = 'Leonardo Zamprogno';
-    $profissao = 'Designer Gráfico, Game Designer e Escritor';
-    $website = 'http://mobogames.com.br';
-    $behance = 'https://www.behance.net/leozamprogeb15';
-    $linkedin = 'https://www.linkedin.com/in/leonardo-zamprogno/';
-    $instagram = 'https://www.instagram.com/leozamprogno/';
-    include('convidado-item.php')
-    ?>
-
-    <?php
-    $foto_src = 'marcos_spinasse';
-    $nome = 'Marcos Spinassé';
-    $profissao = 'Professor do Departamento de Gemologia';
-    $website = '';
-    $behance = '';
-    $linkedin = '';
-    $instagram = 'https://www.instagram.com/labdesignjoia/';
-    include('convidado-item.php')
-    ?>
-
-    <?php
-    $foto_src = 'cris_ibarra';
+    $foto_src = 'cris';
     $nome = 'Cris Ibarra';
     $profissao = 'Designer, podcaster e Professora da UFPE';
-    $website = 'https://sentipensantepodcast.wordpress.com';
-    $website = 'https://sentipensantepodcast.wordpress.com/';
-    $behance = '';
-    $linkedin = 'https://www.linkedin.com/in/mcibarra/';
-    $instagram = 'https://www.instagram.com/cris_ibarrah/';
     include('convidado-item.php')
     ?>
 
     <?php
-    $foto_src = 'carol_cuquetto';
-    $nome = 'Carol Cuquetto';
-    $profissao = 'Designer e ilustradora';
-    $website = 'https://carolcuquetto.com.br/';
-    $behance = 'https://www.behance.net/carolcuquetto';
-    $linkedin = 'https://www.linkedin.com/in/carolcuquetto/';
-    $instagram = 'https://www.instagram.com/carolcuquetto';
+    $foto_src = 'joao-pitanga';
+    $nome = 'João Pitanga';
+    $profissao = 'Diretor Criativo da MP';
     include('convidado-item.php')
     ?>
 
     <?php
-    $foto_src = 'julio_cesar';
+    $foto_src = 'juliana-coli';
+    $nome = 'Juliana Colli';
+    $profissao = 'Designer, Professora e Pesquisadora';
+    include('convidado-item.php')
+    ?>
+
+    <?php
+    $foto_src = 'juliana-coli';
+    $nome = 'Maria Clara Ferreira';
+    $profissao = 'Designer, produtora e multiartista';
+    include('convidado-item.php')
+    ?>
+
+    <?php
+    $foto_src = 'julio-cesar';
     $nome = 'Julio Cesar';
     $profissao = 'UX Researcher Specialist - Grupo OLX';
-    $website = '';
-    $behance = '';
-    $linkedin = 'https://www.linkedin.com/in/julio-césar-reis-alves-6177b715b/';
-    $instagram = 'https://www.instagram.com/reisjulios_/';
     include('convidado-item.php')
     ?>
 
     <?php
-    $foto_src = 'ana_clara_balarini';
-    $nome = 'Ana Clara Balarini';
-    $profissao = 'Brand Designer e Product Stories';
-    $website = '';
-    $behance = 'https://www.behance.net/anacbalarini';
-    $linkedin = 'https://www.linkedin.com/in/ana-clara-balarini-10755116b/';
-    $instagram = 'https://www.instagram.com/clarabalarina/';
+    $foto_src = 'leticia';
+    $nome = 'Letícia Pedruzzi';
+    $profissao = 'Professora, Pesquisadora e Diretora do Inova UFES';
     include('convidado-item.php')
     ?>
 
     <?php
-    $foto_src = 'anclebio_jr';
-    $nome = 'Anclebio Jr';
-    $profissao = 'Produtor Cultural';
-    $website = '';
-    $behance = '';
-    $linkedin = '';
-    $instagram = 'https://www.instagram.com/anclebiojunior/';
+    $foto_src = 'locomotipo';
+    $nome = 'Locomotipo';
+    $profissao = 'Estúdio de Design e Arte';
+    include('convidado-item.php')
+    ?>
+
+    <?php
+    $foto_src = 'lucas';
+    $nome = 'Lucas Sales';
+    $profissao = 'Designer e Illustrador';
+    include('convidado-item.php')
+    ?>
+
+    <?php
+    $foto_src = 'nader';
+    $nome = 'Felipe Nader';
+    $profissao = 'Fundador da AVE Design (?????)"';
+    include('convidado-item.php')
+    ?>
+
+    <?php
+    $foto_src = 'natalia-domitrovic';
+    $nome = 'Natalia Domitrovic';
+    $profissao = 'Product Designer Especialista na VR Benefícios';
+    include('convidado-item.php')
+    ?>
+
+    <?php
+    $foto_src = 'nathalia';
+    $nome = 'Nathalia Barbossa';
+    $profissao = 'Designer Lead no laboratório de VR da UVV';
+    include('convidado-item.php')
+    ?>
+
+    <?php
+    $foto_src = 'paula';
+    $nome = 'Julio Cesar';
+    $profissao = 'UX Researcher Specialist - Grupo OLX';
+    include('convidado-item.php')
+    ?>
+
+    <?php
+    $foto_src = 'pelissari';
+    $nome = 'Gustavo Pelissari';
+    $profissao = 'Artista e ilustrador';
+    include('convidado-item.php')
+    ?>
+
+    <?php
+    $foto_src = 'rafale-pessin';
+    $nome = 'Rafale Pessin';
+    $profissao = 'Produtor audiovisual';
     include('convidado-item.php')
     ?>
 
     <!-- falta a foto dele -->
     <?php
-    $foto_src = 'roberlan';
-    $nome = 'Roberlan';
-    $profissao = 'Ilustrador e Designer Gráfico';
-    $website = 'https://roberlan.com';
-    $behance = 'https://www.behance.net/roberlan';
-    $linkedin = 'https://www.linkedin.com/in/roberlan/';
-    $instagram = 'https://www.instagram.com/thisisblase/';
+    $foto_src = 'rodrigo-saiani';
+    $nome = 'Rodrigo Saiani';
+    $profissao = 'Fundador da Plau';
     include('convidado-item.php')
     ?>
 
     <?php
-    $foto_src = 'rafael_pessin';
-    $nome = 'Rafael Pessin';
-    $profissao = 'Produtor Audiovisual';
-    $website = '';
-    $behance = '';
-    $linkedin = '';
-    $instagram = 'https://www.instagram.com/rafaelpessin';
+    $foto_src = 'romaldo';
+    $nome = 'Ronaldo Barbosa';
+    $profissao = 'Primeiro designer (?)';
     include('convidado-item.php')
     ?>
 
+    <?php
+    $foto_src = 'sarah';
+    $nome = 'Sarah Chaos';
+    $profissao = 'Diretora criativa e designer gráfica';
+    include('convidado-item.php')
+    ?>
+
+    <?php
+    $foto_src = 'sergio';
+    $nome = 'Sérgio Ronaldo';
+    $profissao = 'Designer e professor da UVV';
+    include('convidado-item.php')
+    ?>
+
+    <?php
+    $foto_src = 'tem';
+    $nome = 'TEM design';
+    $profissao = 'Estúdio criativo';
+    include('convidado-item.php')
+    ?>
+
+    <?php
+    $foto_src = 'romaldo';
+    $nome = 'REPETIDO';
+    $profissao = '(????)';
+    include('convidado-item.php')
+    ?>
+
+    <?php
+    $foto_src = 'terezza';
+    $nome = 'Terezza Betinardi';
+    $profissao = 'Designer e fundadora do clube do livro do design';
+    include('convidado-item.php')
+    ?>
+
+    <?php
+    $foto_src = 'werllen';
+    $nome = 'Werllen Castro';
+    $profissao = 'Designer Gráfico';
+    include('convidado-item.php')
+    ?>
+
+    <?php
+    $foto_src = 'will';
+    $nome = 'will Nunes';
+    $profissao = '???';
+    include('convidado-item.php')
+    ?>
+
+    <?php
+    $foto_src = 'zoy';
+    $nome = 'Zoy Anastassakis';
+    $profissao = 'Designer pesquisadora e Diretora da ESDI';
+    include('convidado-item.php')
+    ?>
   </ul>
 </div>

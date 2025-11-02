@@ -1,4 +1,4 @@
-@use "../abstracts" as *;
+@use "../abstracts"as *;
 
 #convidados {
   padding: to-rem(38) 0 to-rem(58);
@@ -16,6 +16,7 @@
     .convidados-lista {
       width: 100%;
       min-width: fit-content;
+      gap: 8px;
 
       .convidado-item {
         width: 100%;
@@ -82,6 +83,10 @@
   @include media-min(medium) {
     padding: to-rem(80) 0 to-rem(120);
 
+    .convidados-lista {
+      gap: 16px;
+    }
+
     .swiper {
       margin-top: to-rem(28);
 
@@ -119,6 +124,10 @@
   }
 
   @include media-min(desktop-large) {
+    .convidados-lista {
+      gap: 32px;
+    }
+
     .convidados-wrapper {
       display: flex;
       align-items: center;

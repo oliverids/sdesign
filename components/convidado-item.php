@@ -9,7 +9,8 @@ global $instagram;
 ?>
 
 <li class="convidado-item swiper-slide">
-  <img src="<?php echo 'assets/img/convidado-' . $foto_src ?>.png " alt="Foto palestrante: <?php echo $nome ?>">
+  <img src="<?php echo 'assets/img/convidados/' . $foto_src ?>.png " alt="Foto palestrante: <?php echo $nome ?>">
+  <!--   
   <?php if ($website !== '' || $behance !== '' || $linkedin !== '' || $instagram !== '') { ?>
     <div class="redes">
       <?php if ($website !== '') { ?>
@@ -53,7 +54,8 @@ global $instagram;
       <?php } ?>
 
     </div>
-  <?php } ?>
+  <?php } ?> 
+  -->
 
   <p><?php echo $nome ?></p>
   <span><?php echo $profissao ?></span>
