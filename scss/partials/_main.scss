@@ -1,4 +1,4 @@
-@use "../abstracts"as *;
+@use "../abstracts" as *;
 
 .main {
   background-color: var(--sdesign-preto);
@@ -59,7 +59,7 @@
       height: 45vh;
       object-fit: cover;
       position: relative;
-      background-image: url("/assets/img/trilha-banner_cllr.png");
+      background-image: url("../assets/img/trilha-banner_cllr.png");
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -97,7 +97,7 @@
 
     @media (min-width: 768px) {
       &__img {
-        background-image: url("/assets/img/trilha-banner_tablet.png");
+        background-image: url("../assets/img/trilha-banner_tablet.png");
         height: 85vh;
       }
 
@@ -120,7 +120,7 @@
 
     @media (min-width: 1024px) {
       &__img {
-        background-image: url("/assets/img/trilha-banner.png");
+        background-image: url("../assets/img/trilha-banner.png");
         height: 42vh;
       }
 
