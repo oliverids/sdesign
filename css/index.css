@@ -365,17 +365,42 @@ header.--ativo .header-nav.mobile {
 }
 .main .swiper-wrapper {
   width: 100vw;
-  height: 60vh;
+  height: 45vh;
   place-items: center;
 }
-@media (min-width: 768px) {
+@media (min-width: 450px) {
+  .main .swiper-wrapper {
+    height: 55vh;
+  }
+}
+@media (min-width: 550px) {
   .main .swiper-wrapper {
     height: 65vh;
   }
 }
-@media (min-width: 844px) {
+@media (min-width: 650px) {
   .main .swiper-wrapper {
-    height: 50vh;
+    height: 75vh;
+  }
+}
+@media (min-width: 768px) {
+  .main .swiper-wrapper {
+    height: 85vh;
+  }
+}
+@media (min-width: 850px) {
+  .main .swiper-wrapper {
+    height: 100vh;
+  }
+}
+@media (min-width: 1024px) {
+  .main .swiper-wrapper {
+    height: 42vh;
+  }
+}
+@media (min-width: 1400px) {
+  .main .swiper-wrapper {
+    height: 55vh;
   }
 }
 .main .swiper-wrapper .swiper-slide {
@@ -385,7 +410,7 @@ header.--ativo .header-nav.mobile {
 }
 .main .banner__img {
   width: 100vw;
-  height: 60vh;
+  height: 45vh;
   object-fit: cover;
   position: relative;
   background-image: url("/assets/img/trilha-banner_cllr.png");
@@ -404,10 +429,25 @@ header.--ativo .header-nav.mobile {
   top: 22px;
   left: 28px;
 }
+@media (min-width: 450px) {
+  .main .banner__img {
+    height: 55vh;
+  }
+}
+@media (min-width: 550px) {
+  .main .banner__img {
+    height: 65vh;
+  }
+}
+@media (min-width: 650px) {
+  .main .banner__img {
+    height: 75vh;
+  }
+}
 @media (min-width: 768px) {
   .main .banner__img {
     background-image: url("/assets/img/trilha-banner_tablet.png");
-    height: 65vh;
+    height: 85vh;
   }
   .main .banner__botao {
     font-size: 18px;
@@ -419,10 +459,15 @@ header.--ativo .header-nav.mobile {
     height: 42px;
   }
 }
+@media (min-width: 850px) {
+  .main .banner__img {
+    height: 100vh;
+  }
+}
 @media (min-width: 1024px) {
   .main .banner__img {
     background-image: url("/assets/img/trilha-banner.png");
-    height: 50vh;
+    height: 42vh;
   }
   .main .banner__botao {
     top: auto;
@@ -432,6 +477,11 @@ header.--ativo .header-nav.mobile {
     font-size: 24px;
     width: 328px;
     height: 58px;
+  }
+}
+@media (min-width: 1400px) {
+  .main .banner__img {
+    height: 55vh;
   }
 }
 .main .banner-bg {
