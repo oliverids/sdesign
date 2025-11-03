@@ -1478,51 +1478,22 @@ header.--ativo .header-nav.mobile {
 .apoio {
   padding: 1.75rem 0;
 }
-.apoio .container ul {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  column-gap: 1rem;
-  row-gap: 1rem;
-  margin-top: 1.125rem;
-}
-.apoio .container ul li {
-  max-height: 3.5rem;
-  max-width: 6.25rem;
-}
-.apoio .container ul li img {
-  width: 100%;
+.apoio .container img {
+  margin-top: 24px;
+  width: 90vw;
 }
 @media only screen and (min-width: 48rem) {
   .apoio {
     padding: 3.875rem 0;
   }
-  .apoio .container ul {
-    margin-top: 2.5rem;
-    column-gap: 1.25rem;
-    row-gap: 1.25rem;
-  }
-  .apoio .container ul li {
-    max-width: 10.75rem;
-    max-height: 8.75rem;
-  }
-  .apoio .container ul li img {
-    width: 100%;
+  .apoio .container img {
+    height: 50vh;
+    width: 90vw;
   }
 }
 @media only screen and (min-width: 85.375rem) {
-  .apoio .container ul {
-    margin-top: 3.5rem;
-    column-gap: 6.375rem;
-    row-gap: 3.375rem;
-  }
-  .apoio .container ul li {
-    max-width: none;
-    max-height: none;
-  }
-  .apoio .container ul li img {
-    transform: scale(1.2);
+  .apoio .container img {
+    width: 90vw;
   }
 }
 

@@ -334,18 +334,7 @@
       <h2>Veja quem apoia o SDesign Perspectivas</h2>
       <p>Conheça as empresas e instituições que tornam o SDesign 2024 possível</p>
 
-      <ul>
-        <li><img src="assets/img/apoio-alphagraphics.png" alt="Logo Alphagraphics"></li>
-        <li><img src="assets/img/apoio-hub.png" alt="Logo Alphagraphics"></li>
-        <li><img src="assets/img/apoio-comboio.png" alt="Logo Alphagraphics"></li>
-        <li><img src="assets/img/apoio-secult.png" alt="Logo Alphagraphics"></li>
-        <li><img src="assets/img/apoio-locomotipo.png" alt="Logo Alphagraphics"></li>
-        <li><img src="assets/img/apoio-sebrae.png" alt="Logo Alphagraphics"></li>
-        <li><img src="assets/img/apoio-candela.png" alt="Logo Alphagraphics"></li>
-        <li><img src="assets/img/apoio-tem_design.png" alt="Logo Alphagraphics"></li>
-        <li><img src="assets/img/apoio-balaio.png" alt="Logo Alphagraphics"></li>
-        <li><img src="assets/img/apoio-colora.png" alt="Logo Alphagraphics"></li>
-      </ul>
+      <img src="assets/img/patrocinadores/completo.svg" alt="Logo Alphagraphics">
     </div>
   </section>
 
