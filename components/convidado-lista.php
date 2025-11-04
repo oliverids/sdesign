@@ -56,12 +56,6 @@
     include('convidado-item.php')
     ?>
 
-    <?php
-    $foto_src = 'juliana-coli';
-    $nome = 'Maria Clara Ferreira';
-    $profissao = 'Designer, produtora e multiartista';
-    include('convidado-item.php')
-    ?>
 
     <?php
     $foto_src = 'julio-cesar';
@@ -94,7 +88,7 @@
     <?php
     $foto_src = 'nader';
     $nome = 'Felipe Nader';
-    $profissao = 'Fundador da AVE Design (?????)"';
+    $profissao = 'Fundador da AVE Design';
     include('convidado-item.php')
     ?>
 
@@ -112,12 +106,6 @@
     include('convidado-item.php')
     ?>
 
-    <?php
-    $foto_src = 'paula';
-    $nome = 'Julio Cesar';
-    $profissao = 'UX Researcher Specialist - Grupo OLX';
-    include('convidado-item.php')
-    ?>
 
     <?php
     $foto_src = 'pelissari';
@@ -144,7 +132,7 @@
     <?php
     $foto_src = 'romaldo';
     $nome = 'Ronaldo Barbosa';
-    $profissao = 'Primeiro designer (?)';
+    $profissao = 'Primeiro designer capixaba';
     include('convidado-item.php')
     ?>
 
@@ -155,12 +143,6 @@
     include('convidado-item.php')
     ?>
 
-    <?php
-    $foto_src = 'sergio';
-    $nome = 'Sérgio Ronaldo';
-    $profissao = 'Designer e professor da UVV';
-    include('convidado-item.php')
-    ?>
 
     <?php
     $foto_src = 'tem';
@@ -169,12 +151,6 @@
     include('convidado-item.php')
     ?>
 
-    <?php
-    $foto_src = 'romaldo';
-    $nome = 'REPETIDO';
-    $profissao = '(????)';
-    include('convidado-item.php')
-    ?>
 
     <?php
     $foto_src = 'terezza';
@@ -193,7 +169,7 @@
     <?php
     $foto_src = 'will';
     $nome = 'will Nunes';
-    $profissao = '???';
+    $profissao = 'Designer Gráfico';
     include('convidado-item.php')
     ?>
 

@@ -42,7 +42,7 @@ Na palestra Will Nunes conta como construiu uma trajetória múltipla no design,
 
 <li class="programacao-item">
   <div class="programacao-hora">
-    <span>13h30 às 14h30</span>
+    <span>13h30 às 16h30</span>
   </div>
   <?php
   $palestrante = 'Rodrigo Saiani';
@@ -84,7 +84,7 @@ Algoritmos e inteligência artificial estão ajudando a levar a personalização
   <?php
   $palestrante = 'Werllen Castro';
   $palestra_titulo = 'Programação criativa';
-  $palestra_tag = 'Sala Criativa';
+  $palestra_tag = 'Auditório Sebrae';
   $palestra_descricao = 'Programação criativa, em que conto como comecei a me interessar e integrar a programação nos meus processos de design, tanto como ferramenta para prototipagem como para finalização. Alguns projetos relacionados são o do seminário Museums.';
   include('components/programacao-conteudo.php')
   ?>

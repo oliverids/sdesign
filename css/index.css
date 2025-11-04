@@ -365,12 +365,12 @@ header.--ativo .header-nav.mobile {
 }
 .main .swiper-wrapper {
   width: 100vw;
-  height: 45vh;
+  height: 36vh;
   place-items: center;
 }
 @media (min-width: 450px) {
   .main .swiper-wrapper {
-    height: 55vh;
+    height: 52vh;
   }
 }
 @media (min-width: 550px) {
@@ -395,12 +395,12 @@ header.--ativo .header-nav.mobile {
 }
 @media (min-width: 1024px) {
   .main .swiper-wrapper {
-    height: 42vh;
+    height: 36vh;
   }
 }
 @media (min-width: 1400px) {
   .main .swiper-wrapper {
-    height: 55vh;
+    height: 50vh;
   }
 }
 .main .swiper-wrapper .swiper-slide {
@@ -410,10 +410,10 @@ header.--ativo .header-nav.mobile {
 }
 .main .banner__img {
   width: 100vw;
-  height: 45vh;
+  height: 36vh;
   object-fit: cover;
   position: relative;
-  background-image: url("/assets/img/trilha-banner_cllr.png");
+  background-image: url("../assets/img/trilha-banner_cllr.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -431,7 +431,7 @@ header.--ativo .header-nav.mobile {
 }
 @media (min-width: 450px) {
   .main .banner__img {
-    height: 55vh;
+    height: 52vh;
   }
 }
 @media (min-width: 550px) {
@@ -446,7 +446,7 @@ header.--ativo .header-nav.mobile {
 }
 @media (min-width: 768px) {
   .main .banner__img {
-    background-image: url("/assets/img/trilha-banner_tablet.png");
+    background-image: url("../assets/img/trilha-banner_tablet.png");
     height: 85vh;
   }
   .main .banner__botao {
@@ -466,8 +466,8 @@ header.--ativo .header-nav.mobile {
 }
 @media (min-width: 1024px) {
   .main .banner__img {
-    background-image: url("/assets/img/trilha-banner.png");
-    height: 42vh;
+    background-image: url("../assets/img/trilha-banner.png");
+    height: 36vh;
   }
   .main .banner__botao {
     top: auto;
@@ -481,7 +481,7 @@ header.--ativo .header-nav.mobile {
 }
 @media (min-width: 1400px) {
   .main .banner__img {
-    height: 55vh;
+    height: 50vh;
   }
 }
 .main .banner-bg {

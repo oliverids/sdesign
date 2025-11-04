@@ -3,13 +3,23 @@
     <span>09h às 10h</span>
   </div>
 
-  <?php
-  $palestrante = 'Letícia Pedruzzi';
-  $palestra_titulo = 'Revistas Capixabas - Um olhar sobre a cultura impressa no Espírito Santo';
-  $palestra_tag = 'Sala Criativa';
-  $palestra_descricao = 'Nesta palestra, será apresentado o trabalho desenvolvido pelo LAD — Laboratório de Design — em torno da cultura impressa no Espírito Santo, com foco nas revistas capixabas e no papel que elas desempenharam na construção da identidade local. A fala propõe um percurso que conecta história e design gráfico, explorando publicações como espaços de circulação de ideias, imagens e modos de representar o cotidiano.';
-  include('components/programacao-conteudo.php')
-  ?>
+  <div class="conteudo-linha">
+    <?php
+    $palestrante = 'Letícia Pedruzzi';
+    $palestra_titulo = 'Revistas Capixabas - Um olhar sobre a cultura impressa no Espírito Santo';
+    $palestra_tag = 'Sala Criativa';
+    $palestra_descricao = 'Nesta palestra, será apresentado o trabalho desenvolvido pelo LAD — Laboratório de Design — em torno da cultura impressa no Espírito Santo, com foco nas revistas capixabas e no papel que elas desempenharam na construção da identidade local. A fala propõe um percurso que conecta história e design gráfico, explorando publicações como espaços de circulação de ideias, imagens e modos de representar o cotidiano.';
+    include('components/programacao-conteudo.php')
+    ?>
+
+    <?php
+    $palestrante = 'Zoy Anastassakis';
+    $palestra_titulo = 'Atos cotidianos de design: aprendendo em tempos de urgência';
+    $palestra_tag = 'Lab Maker';
+    $palestra_descricao = 'Nesta palestra, apresentando o livro “Atos cotidianos de design: aprendendo em tempos de urgência", coescrito com Marcos Martins, Zoy Anastassakis problematizará as teorias de projeto em design, propondo que o fazer design pode ser repensando como um conjunto de aprendizados vinculados às demandas do tempo presente, cotidiano. Essa discussão culminará com a apresentação das questões de interesse da linha de pesquisa "Design, Territorialidades e Antropoceno” do PPDESDI/UERJ, à qual as pesquisas de Zoy Anastassakis estão vinculadas';
+    include('components/programacao-conteudo.php')
+    ?>
+  </div>
 </li>
 
 <li class="programacao-item">
@@ -27,13 +37,6 @@
     include('components/programacao-conteudo.php')
     ?>
 
-    <?php
-    $palestrante = 'Zoy Anastassakis 9 as 10 wallacew muda';
-    $palestra_titulo = 'Atos cotidianos de design: aprendendo em tempos de urgência';
-    $palestra_tag = 'Lab Maker';
-    $palestra_descricao = 'Nesta palestra, apresentando o livro “Atos cotidianos de design: aprendendo em tempos de urgência", coescrito com Marcos Martins, Zoy Anastassakis problematizará as teorias de projeto em design, propondo que o fazer design pode ser repensando como um conjunto de aprendizados vinculados às demandas do tempo presente, cotidiano. Essa discussão culminará com a apresentação das questões de interesse da linha de pesquisa "Design, Territorialidades e Antropoceno” do PPDESDI/UERJ, à qual as pesquisas de Zoy Anastassakis estão vinculadas';
-    include('components/programacao-conteudo.php')
-    ?>
   </div>
 </li>
 

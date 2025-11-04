@@ -129,9 +129,29 @@
 
       <div class="swiper sobre-slider">
         <ul class="swiper-wrapper">
-          <li class="swiper-slide"><img src="assets/img/sobre__img-1.png" alt=""></li>
-          <li class="swiper-slide"><img src="assets/img/sobre__img-2.png" alt=""></li>
-          <li class="swiper-slide"><img src="assets/img/sobre__img-3.png" alt=""></li>
+          <li class="swiper-slide"><img src="assets/img/historia/2000_01.jpg" alt=""></li>
+          <li class="swiper-slide"><img src="assets/img/historia/2015_01.jpg" alt=""></li>
+          <li class="swiper-slide"><img src="assets/img/historia/2015_02.jpg" alt=""></li>
+          <li class="swiper-slide"><img src="assets/img/historia/2024.JPG" alt=""></li>
+          <li class="swiper-slide"><img src="assets/img/historia/2024_02.JPG" alt=""></li>
+          <li class="swiper-slide"><img src="assets/img/historia/2015_03.jpg" alt=""></li>
+          <li class="swiper-slide"><img src="assets/img/historia/2015_05.jpg" alt=""></li>
+          <li class="swiper-slide"><img src="assets/img/historia/2000_02.jpg" alt=""></li>
+          <li class="swiper-slide"><img src="assets/img/historia/2000_03.jpg" alt=""></li>
+          <li class="swiper-slide"><img src="assets/img/historia/2024_05.JPG" alt=""></li>
+          <li class="swiper-slide"><img src="assets/img/historia/2015_10.jpg" alt=""></li>
+          <li class="swiper-slide"><img src="assets/img/historia/2015_12.jpg" alt=""></li>
+          <li class="swiper-slide"><img src="assets/img/historia/2015_13.jpg" alt=""></li>
+          <li class="swiper-slide"><img src="assets/img/historia/2000_04.jpg" alt=""></li>
+          <li class="swiper-slide"><img src="assets/img/historia/2000_05.jpg" alt=""></li>
+          <li class="swiper-slide"><img src="assets/img/historia/2024_08.JPG" alt=""></li>
+          <li class="swiper-slide"><img src="assets/img/historia/2024_10.JPG" alt=""></li>
+          <li class="swiper-slide"><img src="assets/img/historia/2015_06.jpg" alt=""></li>
+          <li class="swiper-slide"><img src="assets/img/historia/2015_07.jpg" alt=""></li>
+          <li class="swiper-slide"><img src="assets/img/historia/2015_08.jpg" alt=""></li>
+          <li class="swiper-slide"><img src="assets/img/historia/2024_16.JPG" alt=""></li>
+          <li class="swiper-slide"><img src="assets/img/historia/2015_09.jpg" alt=""></li>
+          <li class="swiper-slide"><img src="assets/img/historia/2024_17.JPG" alt=""></li>
         </ul>
       </div>
     </div>
@@ -250,10 +270,10 @@
       <div class="programacao">
         <nav class="programacao-nav">
           <ul>
-            <li><button data-nav="dia-0" class="--ativo">QUA - 05/12</button></li>
-            <li><button data-nav="dia-1">QUI - 06/12</button></li>
-            <li><button data-nav="dia-2">SEX - 07/12</button></li>
-            <li><button data-nav="dia-3">SAB - 08/12</button></li>
+            <li><button data-nav="dia-0" class="--ativo">QUA - 05/11</button></li>
+            <li><button data-nav="dia-1">QUI - 06/11</button></li>
+            <li><button data-nav="dia-2">SEX - 07/11</button></li>
+            <li><button data-nav="dia-3">SAB - 08/11</button></li>
           </ul>
         </nav>
 
@@ -343,7 +363,7 @@
       <div class="inscricao-container">
         <h2>Venha fazer suas conexões na SDesign</h2>
         <p>Não perca a oportunidade de se conectar com profissionais e expandir seu conhecimento em design.</p>
-        <a href="https://www.even3.com.br/sdesign-perspectivas/" class="botao --primario">Garantir Inscrição</a>
+        <a href="https://www.even3.com.br/sdesign25-641515/" class="botao --primario">Garantir Inscrição</a>
       </div>
     </div>
   </section>
