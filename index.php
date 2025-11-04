@@ -136,9 +136,7 @@
           <li class="swiper-slide"><img src="assets/img/historia/2024_02.JPG" alt=""></li>
           <li class="swiper-slide"><img src="assets/img/historia/2015_03.jpg" alt=""></li>
           <li class="swiper-slide"><img src="assets/img/historia/2015_05.jpg" alt=""></li>
-          <li class="swiper-slide"><img src="assets/img/historia/2000_02.jpg" alt=""></li>
           <li class="swiper-slide"><img src="assets/img/historia/2000_03.jpg" alt=""></li>
-          <li class="swiper-slide"><img src="assets/img/historia/2024_05.JPG" alt=""></li>
           <li class="swiper-slide"><img src="assets/img/historia/2015_10.jpg" alt=""></li>
           <li class="swiper-slide"><img src="assets/img/historia/2015_12.jpg" alt=""></li>
           <li class="swiper-slide"><img src="assets/img/historia/2015_13.jpg" alt=""></li>
